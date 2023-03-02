@@ -1,0 +1,1 @@
+/home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake

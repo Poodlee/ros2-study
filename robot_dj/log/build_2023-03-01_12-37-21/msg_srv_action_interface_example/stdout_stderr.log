@@ -1,0 +1,7 @@
+[31mCMake Error at CMakeLists.txt:50:
+  Parse error.  Expected a command name, got unquoted argument with text
+  "[출처]".
+
+[0m
+-- Configuring incomplete, errors occurred!
+See also "/home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example/CMakeFiles/CMakeOutput.log".

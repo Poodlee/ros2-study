@@ -1,0 +1,27 @@
+[0.012s] Invoking command in '/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg -- -j8 -l8
+[0.044s] [ 50%] [32mBuilding CXX object CMakeFiles/hellodongjun_publisher.dir/src/hellodongjun_publisher.cpp.o[0m
+[0.044s] [ 75%] Built target hellodongjun_subscriber
+[2.600s] [100%] [32m[1mLinking CXX executable hellodongjun_publisher[0m
+[2.710s] [100%] Built target hellodongjun_publisher
+[2.716s] Invoked command in '/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg -- -j8 -l8
+[2.737s] Invoking command in '/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg
+[2.742s] -- Install configuration: ""
+[2.742s] -- Execute custom install script
+[2.742s] -- Up-to-date symlink: /home/minipin/ros2-study/robot_dj/install/my_first_ros_rclcpp_pkg/lib/my_first_ros_rclcpp_pkg/hellodongjun_publisher
+[2.743s] -- Up-to-date symlink: /home/minipin/ros2-study/robot_dj/install/my_first_ros_rclcpp_pkg/lib/my_first_ros_rclcpp_pkg/hellodongjun_subscriber
+[2.743s] -- Up-to-date symlink: /home/minipin/ros2-study/robot_dj/install/my_first_ros_rclcpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_first_ros_rclcpp_pkg
+[2.743s] -- Up-to-date symlink: /home/minipin/ros2-study/robot_dj/install/my_first_ros_rclcpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_first_ros_rclcpp_pkg
+[2.743s] -- Up-to-date symlink: /home/minipin/ros2-study/robot_dj/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/environment/ament_prefix_path.sh
+[2.743s] -- Up-to-date symlink: /home/minipin/ros2-study/robot_dj/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/environment/ament_prefix_path.dsv
+[2.743s] -- Up-to-date symlink: /home/minipin/ros2-study/robot_dj/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/environment/path.sh
+[2.743s] -- Up-to-date symlink: /home/minipin/ros2-study/robot_dj/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/environment/path.dsv
+[2.743s] -- Up-to-date symlink: /home/minipin/ros2-study/robot_dj/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/local_setup.bash
+[2.743s] -- Up-to-date symlink: /home/minipin/ros2-study/robot_dj/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/local_setup.sh
+[2.744s] -- Up-to-date symlink: /home/minipin/ros2-study/robot_dj/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/local_setup.zsh
+[2.744s] -- Up-to-date symlink: /home/minipin/ros2-study/robot_dj/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/local_setup.dsv
+[2.744s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/package.dsv
+[2.749s] -- Up-to-date symlink: /home/minipin/ros2-study/robot_dj/install/my_first_ros_rclcpp_pkg/share/ament_index/resource_index/packages/my_first_ros_rclcpp_pkg
+[2.750s] -- Up-to-date symlink: /home/minipin/ros2-study/robot_dj/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/cmake/my_first_ros_rclcpp_pkgConfig.cmake
+[2.750s] -- Up-to-date symlink: /home/minipin/ros2-study/robot_dj/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/cmake/my_first_ros_rclcpp_pkgConfig-version.cmake
+[2.750s] -- Up-to-date symlink: /home/minipin/ros2-study/robot_dj/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/package.xml
+[2.752s] Invoked command in '/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg

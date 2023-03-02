@@ -1,0 +1,1 @@
+/home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example/rosidl_generator_py/msg_srv_action_interface_example/srv/_arithmetic_operator_s.c

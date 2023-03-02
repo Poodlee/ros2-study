@@ -1,0 +1,9 @@
+[0.008s] Invoking command in '/home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example': /usr/bin/cmake /home/minipin/ros2-study/robot_dj/src/msg_srv_action_interface_example -DCMAKE_INSTALL_PREFIX=/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example
+[0.012s] [31mCMake Error at CMakeLists.txt:50:
+[0.012s]   Parse error.  Expected a command name, got unquoted argument with text
+[0.012s]   "[출처]".
+[0.012s] 
+[0.012s] [0m
+[0.012s] -- Configuring incomplete, errors occurred!
+[0.012s] See also "/home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example/CMakeFiles/CMakeOutput.log".
+[0.013s] Invoked command in '/home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example' returned '1': /usr/bin/cmake /home/minipin/ros2-study/robot_dj/src/msg_srv_action_interface_example -DCMAKE_INSTALL_PREFIX=/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example

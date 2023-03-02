@@ -1,0 +1,1 @@
+/home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example/rosidl_typesupport_fastrtps_cpp/msg_srv_action_interface_example/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h

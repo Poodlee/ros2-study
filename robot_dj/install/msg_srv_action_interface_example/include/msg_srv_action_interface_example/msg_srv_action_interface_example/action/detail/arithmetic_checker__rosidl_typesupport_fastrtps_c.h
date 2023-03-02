@@ -1,0 +1,1 @@
+/home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example/rosidl_typesupport_fastrtps_c/msg_srv_action_interface_example/action/detail/arithmetic_checker__rosidl_typesupport_fastrtps_c.h

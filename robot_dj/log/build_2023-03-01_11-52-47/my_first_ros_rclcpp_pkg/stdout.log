@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target hellodongjun_publisher[0m
+[35m[1mConsolidate compiler generated dependencies of target hellodongjun_subscriber[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/hellodongjun_publisher.dir/src/hellodongjun_publisher.cpp.o[0m
+[ 75%] Built target hellodongjun_subscriber
+[100%] [32m[1mLinking CXX executable hellodongjun_publisher[0m
+[100%] Built target hellodongjun_publisher
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/minipin/ros2-study/robot_dj/install/my_first_ros_rclcpp_pkg/lib/my_first_ros_rclcpp_pkg/hellodongjun_publisher
+-- Symlinking: /home/minipin/ros2-study/robot_dj/install/my_first_ros_rclcpp_pkg/lib/my_first_ros_rclcpp_pkg/hellodongjun_subscriber
+-- Symlinking: /home/minipin/ros2-study/robot_dj/install/my_first_ros_rclcpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_first_ros_rclcpp_pkg
+-- Symlinking: /home/minipin/ros2-study/robot_dj/install/my_first_ros_rclcpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_first_ros_rclcpp_pkg
+-- Symlinking: /home/minipin/ros2-study/robot_dj/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/environment/ament_prefix_path.sh
+-- Symlinking: /home/minipin/ros2-study/robot_dj/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/environment/ament_prefix_path.dsv
+-- Symlinking: /home/minipin/ros2-study/robot_dj/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/environment/path.sh
+-- Symlinking: /home/minipin/ros2-study/robot_dj/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/environment/path.dsv
+-- Symlinking: /home/minipin/ros2-study/robot_dj/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/local_setup.bash
+-- Symlinking: /home/minipin/ros2-study/robot_dj/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/local_setup.sh
+-- Symlinking: /home/minipin/ros2-study/robot_dj/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/local_setup.zsh
+-- Symlinking: /home/minipin/ros2-study/robot_dj/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/local_setup.dsv
+-- Symlinking: /home/minipin/ros2-study/robot_dj/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/package.dsv
+-- Symlinking: /home/minipin/ros2-study/robot_dj/install/my_first_ros_rclcpp_pkg/share/ament_index/resource_index/packages/my_first_ros_rclcpp_pkg
+-- Symlinking: /home/minipin/ros2-study/robot_dj/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/cmake/my_first_ros_rclcpp_pkgConfig.cmake
+-- Symlinking: /home/minipin/ros2-study/robot_dj/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/cmake/my_first_ros_rclcpp_pkgConfig-version.cmake
+-- Symlinking: /home/minipin/ros2-study/robot_dj/install/my_first_ros_rclcpp_pkg/share/my_first_ros_rclcpp_pkg/package.xml
