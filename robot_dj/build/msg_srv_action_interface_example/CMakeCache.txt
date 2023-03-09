@@ -50,7 +50,7 @@ CMAKE_AR:FILEPATH=/usr/bin/ar
 
 //Choose the type of build, options are: None Debug Release RelWithDebInfo
 // MinSizeRel ...
-CMAKE_BUILD_TYPE:STRING=Debug
+CMAKE_BUILD_TYPE:STRING=
 
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
@@ -337,7 +337,7 @@ msg_srv_action_interface_example_BINARY_DIR:STATIC=/home/minipin/ros2-study/robo
 msg_srv_action_interface_example_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-msg_srv_action_interface_example_SOURCE_DIR:STATIC=/home/minipin/ros2-study/robot_dj/src/msg_srv_action_interface_example
+msg_srv_action_interface_example_SOURCE_DIR:STATIC=/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/msg_srv_action_interface_example
 
 //Dependencies for the target
 msg_srv_action_interface_example__rosidl_generator_c_LIB_DEPENDS:STATIC=general;builtin_interfaces::builtin_interfaces__rosidl_generator_c;general;action_msgs::action_msgs__rosidl_generator_c;general;unique_identifier_msgs::unique_identifier_msgs__rosidl_generator_c;general;rosidl_runtime_c::rosidl_runtime_c;general;rcutils::rcutils;
@@ -520,7 +520,7 @@ CMAKE_GENERATOR_PLATFORM:INTERNAL=
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/minipin/ros2-study/robot_dj/src/msg_srv_action_interface_example
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/msg_srv_action_interface_example
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

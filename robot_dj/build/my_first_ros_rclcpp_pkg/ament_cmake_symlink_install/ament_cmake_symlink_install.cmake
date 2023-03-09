@@ -310,47 +310,47 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install("TARGETS" "hellodongjun_publisher" "hellodongjun_subscriber" "DESTINATION" "lib/my_first_ros_rclcpp_pkg")
+# install("TARGETS" "helloworld_publisher" "helloworld_subscriber" "DESTINATION" "lib/my_first_ros_rclcpp_pkg")
 include("/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(FILES "/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/my_first_ros_rclcpp_pkg" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/minipin/ros2-study/robot_dj/src/my_first_ros_rclcpp_pkg" FILES "/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/my_first_ros_rclcpp_pkg" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/my_first_ros_rclcpp_pkg" FILES "/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/my_first_ros_rclcpp_pkg" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
 # install(FILES "/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/my_first_ros_rclcpp_pkg" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/minipin/ros2-study/robot_dj/src/my_first_ros_rclcpp_pkg" FILES "/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/my_first_ros_rclcpp_pkg" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/my_first_ros_rclcpp_pkg" FILES "/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/my_first_ros_rclcpp_pkg" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/my_first_ros_rclcpp_pkg/environment")
-ament_cmake_symlink_install_files("/home/minipin/ros2-study/robot_dj/src/my_first_ros_rclcpp_pkg" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/my_first_ros_rclcpp_pkg/environment")
+ament_cmake_symlink_install_files("/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/my_first_ros_rclcpp_pkg" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/my_first_ros_rclcpp_pkg/environment")
 
 # install(FILES "/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/my_first_ros_rclcpp_pkg/environment")
-ament_cmake_symlink_install_files("/home/minipin/ros2-study/robot_dj/src/my_first_ros_rclcpp_pkg" FILES "/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/my_first_ros_rclcpp_pkg/environment")
+ament_cmake_symlink_install_files("/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/my_first_ros_rclcpp_pkg" FILES "/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/my_first_ros_rclcpp_pkg/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/my_first_ros_rclcpp_pkg/environment")
-ament_cmake_symlink_install_files("/home/minipin/ros2-study/robot_dj/src/my_first_ros_rclcpp_pkg" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/my_first_ros_rclcpp_pkg/environment")
+ament_cmake_symlink_install_files("/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/my_first_ros_rclcpp_pkg" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/my_first_ros_rclcpp_pkg/environment")
 
 # install(FILES "/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/my_first_ros_rclcpp_pkg/environment")
-ament_cmake_symlink_install_files("/home/minipin/ros2-study/robot_dj/src/my_first_ros_rclcpp_pkg" FILES "/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/my_first_ros_rclcpp_pkg/environment")
+ament_cmake_symlink_install_files("/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/my_first_ros_rclcpp_pkg" FILES "/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/my_first_ros_rclcpp_pkg/environment")
 
 # install(FILES "/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/my_first_ros_rclcpp_pkg")
-ament_cmake_symlink_install_files("/home/minipin/ros2-study/robot_dj/src/my_first_ros_rclcpp_pkg" FILES "/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/my_first_ros_rclcpp_pkg")
+ament_cmake_symlink_install_files("/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/my_first_ros_rclcpp_pkg" FILES "/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/my_first_ros_rclcpp_pkg")
 
 # install(FILES "/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/my_first_ros_rclcpp_pkg")
-ament_cmake_symlink_install_files("/home/minipin/ros2-study/robot_dj/src/my_first_ros_rclcpp_pkg" FILES "/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/my_first_ros_rclcpp_pkg")
+ament_cmake_symlink_install_files("/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/my_first_ros_rclcpp_pkg" FILES "/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/my_first_ros_rclcpp_pkg")
 
 # install(FILES "/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/my_first_ros_rclcpp_pkg")
-ament_cmake_symlink_install_files("/home/minipin/ros2-study/robot_dj/src/my_first_ros_rclcpp_pkg" FILES "/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/my_first_ros_rclcpp_pkg")
+ament_cmake_symlink_install_files("/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/my_first_ros_rclcpp_pkg" FILES "/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/my_first_ros_rclcpp_pkg")
 
 # install(FILES "/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/my_first_ros_rclcpp_pkg")
-ament_cmake_symlink_install_files("/home/minipin/ros2-study/robot_dj/src/my_first_ros_rclcpp_pkg" FILES "/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/my_first_ros_rclcpp_pkg")
+ament_cmake_symlink_install_files("/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/my_first_ros_rclcpp_pkg" FILES "/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/my_first_ros_rclcpp_pkg")
 
 # install(FILES "/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/my_first_ros_rclcpp_pkg")
-ament_cmake_symlink_install_files("/home/minipin/ros2-study/robot_dj/src/my_first_ros_rclcpp_pkg" FILES "/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/my_first_ros_rclcpp_pkg")
+ament_cmake_symlink_install_files("/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/my_first_ros_rclcpp_pkg" FILES "/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/my_first_ros_rclcpp_pkg")
 
 # install(FILES "/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg/ament_cmake_index/share/ament_index/resource_index/packages/my_first_ros_rclcpp_pkg" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/minipin/ros2-study/robot_dj/src/my_first_ros_rclcpp_pkg" FILES "/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg/ament_cmake_index/share/ament_index/resource_index/packages/my_first_ros_rclcpp_pkg" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/my_first_ros_rclcpp_pkg" FILES "/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg/ament_cmake_index/share/ament_index/resource_index/packages/my_first_ros_rclcpp_pkg" "DESTINATION" "share/ament_index/resource_index/packages")
 
 # install(FILES "/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg/ament_cmake_core/my_first_ros_rclcpp_pkgConfig.cmake" "/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg/ament_cmake_core/my_first_ros_rclcpp_pkgConfig-version.cmake" "DESTINATION" "share/my_first_ros_rclcpp_pkg/cmake")
-ament_cmake_symlink_install_files("/home/minipin/ros2-study/robot_dj/src/my_first_ros_rclcpp_pkg" FILES "/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg/ament_cmake_core/my_first_ros_rclcpp_pkgConfig.cmake" "/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg/ament_cmake_core/my_first_ros_rclcpp_pkgConfig-version.cmake" "DESTINATION" "share/my_first_ros_rclcpp_pkg/cmake")
+ament_cmake_symlink_install_files("/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/my_first_ros_rclcpp_pkg" FILES "/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg/ament_cmake_core/my_first_ros_rclcpp_pkgConfig.cmake" "/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg/ament_cmake_core/my_first_ros_rclcpp_pkgConfig-version.cmake" "DESTINATION" "share/my_first_ros_rclcpp_pkg/cmake")
 
-# install(FILES "/home/minipin/ros2-study/robot_dj/src/my_first_ros_rclcpp_pkg/package.xml" "DESTINATION" "share/my_first_ros_rclcpp_pkg")
-ament_cmake_symlink_install_files("/home/minipin/ros2-study/robot_dj/src/my_first_ros_rclcpp_pkg" FILES "/home/minipin/ros2-study/robot_dj/src/my_first_ros_rclcpp_pkg/package.xml" "DESTINATION" "share/my_first_ros_rclcpp_pkg")
+# install(FILES "/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/my_first_ros_rclcpp_pkg/package.xml" "DESTINATION" "share/my_first_ros_rclcpp_pkg")
+ament_cmake_symlink_install_files("/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/my_first_ros_rclcpp_pkg" FILES "/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/my_first_ros_rclcpp_pkg/package.xml" "DESTINATION" "share/my_first_ros_rclcpp_pkg")

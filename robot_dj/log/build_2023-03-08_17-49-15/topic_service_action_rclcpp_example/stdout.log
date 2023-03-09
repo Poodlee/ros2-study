@@ -1,0 +1,14 @@
+[35m[1mConsolidate compiler generated dependencies of target checker[0m
+[ 11%] Built target gtest_main
+[ 17%] [32mBuilding CXX object CMakeFiles/calculator.dir/src/calculator/calculator.cpp.o[0m
+[ 29%] Built target gtest
+[ 47%] Built target operator
+[ 47%] [32mBuilding CXX object CMakeFiles/argument.dir/src/arithmetic/argument.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/checker.dir/src/checker/checker.cpp.o[0m
+[ 58%] [32mBuilding CXX object test/CMakeFiles/test_calculator.dir/__/src/calculator/calculator.cpp.o[0m
+[ 64%] [32m[1mLinking CXX executable argument[0m
+[ 64%] Built target argument
+[ 70%] [32m[1mLinking CXX executable calculator[0m
+[ 76%] [32m[1mLinking CXX executable test_calculator[0m
+[ 82%] Built target calculator
+[ 88%] Built target test_calculator

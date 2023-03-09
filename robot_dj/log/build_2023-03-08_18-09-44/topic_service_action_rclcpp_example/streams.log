@@ -1,0 +1,26 @@
+[0.012s] Invoking command in '/home/minipin/ros2-study/robot_dj/build/topic_service_action_rclcpp_example': CMAKE_PREFIX_PATH=/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example:/home/minipin/ros2-study/robot_dj/install/testbot_description:/home/minipin/ros2-study/robot_dj/install/rqt_example:/home/minipin/ros2-study/robot_dj/install/time_rclpy_example:/home/minipin/ros2-study/robot_dj/install/tf2_rclpy_example:/home/minipin/ros2-study/robot_dj/install/ros2env:/home/minipin/ros2-study/robot_dj/install/my_first_ros_rclpy_pkg:/home/minipin/ros2-study/robot_dj/install/logging_rclpy_example:/opt/ros/humble /usr/bin/cmake --build /home/minipin/ros2-study/robot_dj/build/topic_service_action_rclcpp_example -- -j8 -l8
+[0.041s] [35m[1mConsolidate compiler generated dependencies of target checker[0m
+[0.046s] [ 11%] Built target gtest_main
+[0.046s] [ 23%] Built target gtest
+[0.048s] [ 35%] Built target argument
+[0.048s] [ 47%] Built target operator
+[0.050s] [ 64%] Built target calculator
+[0.056s] [ 70%] [32mBuilding CXX object CMakeFiles/checker.dir/src/checker/main.cpp.o[0m
+[0.057s] [ 76%] [32mBuilding CXX object CMakeFiles/checker.dir/src/checker/checker.cpp.o[0m
+[0.063s] [ 94%] Built target test_calculator
+[1.628s] In file included from [01m[K/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/topic_service_action_rclcpp_example/src/checker/checker.cpp:18[m[K:
+[1.628s] [01m[K/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/topic_service_action_rclcpp_example/include/checker/checker.hpp:44:63:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.628s]    44 |     const GoalHandleArithmeticChecker::SharedPtr & goal_handle[01;31m[K)[m[K
+[1.628s]       |                                                               [01;31m[K^[m[K
+[1.628s]       |                                                                [32m[K;[m[K
+[1.662s] In file included from [01m[K/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/topic_service_action_rclcpp_example/src/checker/main.cpp:23[m[K:
+[1.662s] [01m[K/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/topic_service_action_rclcpp_example/include/checker/checker.hpp:44:63:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.662s]    44 |     const GoalHandleArithmeticChecker::SharedPtr & goal_handle[01;31m[K)[m[K
+[1.662s]       |                                                               [01;31m[K^[m[K
+[1.662s]       |                                                                [32m[K;[m[K
+[1.968s] gmake[2]: *** [CMakeFiles/checker.dir/build.make:76: CMakeFiles/checker.dir/src/checker/main.cpp.o] Error 1
+[1.969s] gmake[2]: *** Waiting for unfinished jobs....
+[2.125s] gmake[2]: *** [CMakeFiles/checker.dir/build.make:90: CMakeFiles/checker.dir/src/checker/checker.cpp.o] Error 1
+[2.125s] gmake[1]: *** [CMakeFiles/Makefile2:230: CMakeFiles/checker.dir/all] Error 2
+[2.125s] gmake: *** [Makefile:146: all] Error 2
+[2.127s] Invoked command in '/home/minipin/ros2-study/robot_dj/build/topic_service_action_rclcpp_example' returned '2': CMAKE_PREFIX_PATH=/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example:/home/minipin/ros2-study/robot_dj/install/testbot_description:/home/minipin/ros2-study/robot_dj/install/rqt_example:/home/minipin/ros2-study/robot_dj/install/time_rclpy_example:/home/minipin/ros2-study/robot_dj/install/tf2_rclpy_example:/home/minipin/ros2-study/robot_dj/install/ros2env:/home/minipin/ros2-study/robot_dj/install/my_first_ros_rclpy_pkg:/home/minipin/ros2-study/robot_dj/install/logging_rclpy_example:/opt/ros/humble /usr/bin/cmake --build /home/minipin/ros2-study/robot_dj/build/topic_service_action_rclcpp_example -- -j8 -l8

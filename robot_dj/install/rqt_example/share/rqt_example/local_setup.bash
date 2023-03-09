@@ -1,0 +1,1 @@
+/home/minipin/ros2-study/robot_dj/build/rqt_example/ament_cmake_environment_hooks/local_setup.bash

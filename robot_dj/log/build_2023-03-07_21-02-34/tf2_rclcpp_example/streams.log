@@ -1,0 +1,102 @@
+[0.561s] Invoking command in '/home/minipin/ros2-study/robot_dj/build/tf2_rclcpp_example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/tf2_rclcpp_example -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/minipin/ros2-study/robot_dj/install/tf2_rclcpp_example
+[0.611s] -- The C compiler identification is GNU 11.3.0
+[0.669s] -- The CXX compiler identification is GNU 11.3.0
+[0.676s] -- Detecting C compiler ABI info
+[0.747s] -- Detecting C compiler ABI info - done
+[0.754s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.754s] -- Detecting C compile features
+[0.755s] -- Detecting C compile features - done
+[0.758s] -- Detecting CXX compiler ABI info
+[0.841s] -- Detecting CXX compiler ABI info - done
+[0.843s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.843s] -- Detecting CXX compile features
+[0.844s] -- Detecting CXX compile features - done
+[0.846s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.047s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.123s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.165s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.220s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.224s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.234s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.250s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.273s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.419s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[1.479s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.482s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.655s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.696s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.747s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.758s] -- Looking for pthread.h
+[1.846s] -- Looking for pthread.h - found
+[1.847s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.949s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.949s] -- Found Threads: TRUE  
+[2.129s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[2.193s] -- Found tf2: 0.25.2 (/opt/ros/humble/share/tf2/cmake)
+[2.234s] -- Found tf2_geometry_msgs: 0.25.2 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[2.254s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.257s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.257s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.896s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.992s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.992s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.992s] -- Configured cppcheck include dirs: /home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/tf2_rclcpp_example/include
+[3.000s] -- Configured cppcheck exclude dirs and/or files: 
+[3.001s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.001s] -- Configured cpplint exclude dirs and/or files: 
+[3.001s] -- Added test 'lint_cmake' to check CMake code style
+[3.001s] -- Added test 'uncrustify' to check C / C++ code style
+[3.001s] -- Configured uncrustify additional arguments: 
+[3.001s] -- Added test 'xmllint' to check XML markup files
+[3.006s] -- Configuring done
+[3.080s] -- Generating done
+[3.080s] -- Build files have been written to: /home/minipin/ros2-study/robot_dj/build/tf2_rclcpp_example
+[3.120s] Invoked command in '/home/minipin/ros2-study/robot_dj/build/tf2_rclcpp_example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/tf2_rclcpp_example -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/minipin/ros2-study/robot_dj/install/tf2_rclcpp_example
+[3.121s] Invoking command in '/home/minipin/ros2-study/robot_dj/build/tf2_rclcpp_example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/minipin/ros2-study/robot_dj/build/tf2_rclcpp_example -- -j8 -l8
+[3.336s] [ 16%] [32mBuilding CXX object CMakeFiles/broadcaster.dir/src/broadcaster.cpp.o[0m
+[3.380s] [ 33%] [32mBuilding CXX object CMakeFiles/static_broadcaster.dir/src/static_broadcaster.cpp.o[0m
+[3.401s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[3.933s] In file included from [01m[K/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/tf2_rclcpp_example/include/listener.hpp:25[m[K,
+[3.933s]                  from [01m[K/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/tf2_rclcpp_example/src/listener.cpp:17[m[K:
+[3.933s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[3.933s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[3.933s]       |  [01;35m[K^~~~~~~[m[K
+[7.603s] In file included from [01m[K/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/tf2_rclcpp_example/src/listener.cpp:17[m[K:
+[7.603s] [01m[K/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/tf2_rclcpp_example/include/listener.hpp:40:12:[m[K [01;31m[Kerror: [m[K‘[01m[KBuffer[m[K’ in namespace ‘[01m[Ktf2_ros[m[K’ does not name a type
+[7.604s]    40 |   tf2_ros::[01;31m[KBuffer[m[K tf_buffer_;
+[7.604s]       |            [01;31m[K^~~~~~[m[K
+[7.605s] [01m[K/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/tf2_rclcpp_example/src/listener.cpp:[m[K In constructor ‘[01m[KListener::Listener()[m[K’:
+[7.605s] [01m[K/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/tf2_rclcpp_example/src/listener.cpp:23:3:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KListener[m[K’ does not have any field named ‘[01m[Ktf_buffer_[m[K’
+[7.606s]    23 |   [01;31m[Ktf_buffer_[m[K(this->get_clock()),
+[7.606s]       |   [01;31m[K^~~~~~~~~~[m[K
+[7.611s] [01m[K/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/tf2_rclcpp_example/src/listener.cpp:24:16:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_buffer_[m[K’ was not declared in this scope
+[7.612s]    24 |   tf_listener_([01;31m[Ktf_buffer_[m[K)
+[7.612s]       |                [01;31m[K^~~~~~~~~~[m[K
+[7.613s] [01m[K/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/tf2_rclcpp_example/src/listener.cpp:[m[K In lambda function:
+[7.613s] [01m[K/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/tf2_rclcpp_example/src/listener.cpp:33:24:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_buffer_[m[K’ is not captured
+[7.614s]    33 |         tf_world_pan = [01;31m[Ktf_buffer_[m[K.lookupTransform("pan", "world", tf2::timeFromSec(0));
+[7.614s]       |                        [01;31m[K^~~~~~~~~~[m[K
+[7.615s] [01m[K/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/tf2_rclcpp_example/src/listener.cpp:27:10:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[7.615s]    27 |     [this[01;36m[K][m[K() -> void
+[7.616s]       |          [01;36m[K^[m[K
+[7.616s] [01m[K/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/tf2_rclcpp_example/src/listener.cpp:24:16:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>tf_buffer_[m[K’ declared here
+[7.617s]    24 |   tf_listener_([01;36m[Ktf_buffer_[m[K)
+[7.617s]       |                [01;36m[K^~~~~~~~~~[m[K
+[7.618s] [01m[K/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/tf2_rclcpp_example/src/listener.cpp:55:24:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_buffer_[m[K’ is not captured
+[7.618s]    55 |         tf_pan_world = [01;31m[Ktf_buffer_[m[K.lookupTransform("world", "pan", tf2::timeFromSec(0));
+[7.618s]       |                        [01;31m[K^~~~~~~~~~[m[K
+[7.618s] [01m[K/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/tf2_rclcpp_example/src/listener.cpp:27:10:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[7.618s]    27 |     [this[01;36m[K][m[K() -> void
+[7.618s]       |          [01;36m[K^[m[K
+[7.618s] [01m[K/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/tf2_rclcpp_example/src/listener.cpp:24:16:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>tf_buffer_[m[K’ declared here
+[7.618s]    24 |   tf_listener_([01;36m[Ktf_buffer_[m[K)
+[7.618s]       |                [01;36m[K^~~~~~~~~~[m[K
+[8.354s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/listener.cpp.o] Error 1
+[8.355s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/listener.dir/all] Error 2
+[8.356s] gmake[1]: *** Waiting for unfinished jobs....
+[9.392s] [ 66%] [32m[1mLinking CXX executable static_broadcaster[0m
+[9.659s] [ 66%] Built target static_broadcaster
+[9.927s] [ 83%] [32m[1mLinking CXX executable broadcaster[0m
+[10.121s] [ 83%] Built target broadcaster
+[10.122s] gmake: *** [Makefile:146: all] Error 2
+[10.124s] Invoked command in '/home/minipin/ros2-study/robot_dj/build/tf2_rclcpp_example' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/minipin/ros2-study/robot_dj/build/tf2_rclcpp_example -- -j8 -l8

@@ -1,0 +1,54 @@
+[0.209s] Invoking command in '/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/my_first_ros_rclcpp_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/minipin/ros2-study/robot_dj/install/my_first_ros_rclcpp_pkg
+[0.596s] -- The C compiler identification is GNU 11.3.0
+[0.596s] -- The CXX compiler identification is GNU 11.3.0
+[0.596s] -- Detecting C compiler ABI info
+[0.596s] -- Detecting C compiler ABI info - done
+[0.596s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.596s] -- Detecting C compile features
+[0.596s] -- Detecting C compile features - done
+[0.596s] -- Detecting CXX compiler ABI info
+[0.596s] -- Detecting CXX compiler ABI info - done
+[0.596s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.596s] -- Detecting CXX compile features
+[0.596s] -- Detecting CXX compile features - done
+[0.597s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.597s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.597s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.597s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[0.636s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.643s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.649s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.666s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.689s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.768s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.771s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.888s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.917s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.986s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.000s] -- Looking for pthread.h
+[1.171s] -- Looking for pthread.h - found
+[1.171s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.313s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.315s] -- Found Threads: TRUE  
+[1.520s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.607s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.607s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.607s] -- Configured cppcheck include dirs: 
+[1.608s] -- Configured cppcheck exclude dirs and/or files: 
+[1.608s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.608s] -- Configured cpplint exclude dirs and/or files: 
+[1.609s] -- Added test 'lint_cmake' to check CMake code style
+[1.609s] -- Added test 'uncrustify' to check C / C++ code style
+[1.609s] -- Configured uncrustify additional arguments: 
+[1.610s] -- Added test 'xmllint' to check XML markup files
+[1.614s] -- Configuring done
+[1.629s] -- Generating done
+[1.629s] -- Build files have been written to: /home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg
+[1.693s] Invoked command in '/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/my_first_ros_rclcpp_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/minipin/ros2-study/robot_dj/install/my_first_ros_rclcpp_pkg
+[1.703s] Invoking command in '/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg -- -j8 -l8
+[1.749s] [ 25%] [32mBuilding CXX object CMakeFiles/helloworld_subscriber.dir/src/helloworld_subscriber.cpp.o[0m
+[1.749s] [ 50%] [32mBuilding CXX object CMakeFiles/helloworld_publisher.dir/src/helloworld_publisher.cpp.o[0m
+[8.565s] [ 75%] [32m[1mLinking CXX executable helloworld_publisher[0m
+[8.752s] [ 75%] Built target helloworld_publisher
+[11.492s] [100%] [32m[1mLinking CXX executable helloworld_subscriber[0m
+[11.743s] [100%] Built target helloworld_subscriber

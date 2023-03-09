@@ -1,0 +1,736 @@
+[0.215s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.216s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ff53420e4d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ff534c5bc40>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ff534c5bc40>>)
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.232s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/minipin/ros2-study/robot_dj'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'colcon_pkg'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ros'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['cmake', 'python']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'cmake'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'python'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['python_setup_py']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'python_setup_py'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples) by extensions ['colcon_pkg']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples) by extension 'colcon_pkg'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples) by extension 'ros'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples) by extensions ['cmake', 'python']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples) by extension 'cmake'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples) by extension 'python'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples) by extensions ['python_setup_py']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples) by extension 'python_setup_py'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/logging_rclpy_example) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/logging_rclpy_example) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/logging_rclpy_example) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/logging_rclpy_example) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/logging_rclpy_example) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/logging_rclpy_example) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/logging_rclpy_example) by extension 'colcon_meta'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/logging_rclpy_example) by extensions ['ros']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/logging_rclpy_example) by extension 'ros'
+[0.244s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-seminar-examples/logging_rclpy_example' with type 'ros.ament_python' and name 'logging_rclpy_example'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/msg_srv_action_interface_example) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/msg_srv_action_interface_example) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/msg_srv_action_interface_example) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/msg_srv_action_interface_example) by extensions ['colcon_pkg']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/msg_srv_action_interface_example) by extension 'colcon_pkg'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/msg_srv_action_interface_example) by extensions ['colcon_meta']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/msg_srv_action_interface_example) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/msg_srv_action_interface_example) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/msg_srv_action_interface_example) by extension 'ros'
+[0.245s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-seminar-examples/msg_srv_action_interface_example' with type 'ros.ament_cmake' and name 'msg_srv_action_interface_example'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/my_first_ros_rclcpp_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/my_first_ros_rclcpp_pkg) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/my_first_ros_rclcpp_pkg) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/my_first_ros_rclcpp_pkg) by extensions ['colcon_pkg']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/my_first_ros_rclcpp_pkg) by extension 'colcon_pkg'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/my_first_ros_rclcpp_pkg) by extensions ['colcon_meta']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/my_first_ros_rclcpp_pkg) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/my_first_ros_rclcpp_pkg) by extensions ['ros']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/my_first_ros_rclcpp_pkg) by extension 'ros'
+[0.246s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-seminar-examples/my_first_ros_rclcpp_pkg' with type 'ros.ament_cmake' and name 'my_first_ros_rclcpp_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/my_first_ros_rclpy_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/my_first_ros_rclpy_pkg) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/my_first_ros_rclpy_pkg) by extension 'ignore_ament_install'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/my_first_ros_rclpy_pkg) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/my_first_ros_rclpy_pkg) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/my_first_ros_rclpy_pkg) by extensions ['colcon_meta']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/my_first_ros_rclpy_pkg) by extension 'colcon_meta'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/my_first_ros_rclpy_pkg) by extensions ['ros']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/my_first_ros_rclpy_pkg) by extension 'ros'
+[0.247s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-seminar-examples/my_first_ros_rclpy_pkg' with type 'ros.ament_python' and name 'my_first_ros_rclpy_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/ros2env) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/ros2env) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/ros2env) by extension 'ignore_ament_install'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/ros2env) by extensions ['colcon_pkg']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/ros2env) by extension 'colcon_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/ros2env) by extensions ['colcon_meta']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/ros2env) by extension 'colcon_meta'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/ros2env) by extensions ['ros']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/ros2env) by extension 'ros'
+[0.247s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-seminar-examples/ros2env' with type 'ros.ament_python' and name 'ros2env'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/rqt_example) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/rqt_example) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/rqt_example) by extension 'ignore_ament_install'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/rqt_example) by extensions ['colcon_pkg']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/rqt_example) by extension 'colcon_pkg'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/rqt_example) by extensions ['colcon_meta']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/rqt_example) by extension 'colcon_meta'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/rqt_example) by extensions ['ros']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/rqt_example) by extension 'ros'
+[0.248s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-seminar-examples/rqt_example' with type 'ros.ament_cmake' and name 'rqt_example'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/testbot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/testbot_description) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/testbot_description) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/testbot_description) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/testbot_description) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/testbot_description) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/testbot_description) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/testbot_description) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/testbot_description) by extension 'ros'
+[0.249s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-seminar-examples/testbot_description' with type 'ros.ament_cmake' and name 'testbot_description'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/tf2_rclcpp_example) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/tf2_rclcpp_example) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/tf2_rclcpp_example) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/tf2_rclcpp_example) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/tf2_rclcpp_example) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/tf2_rclcpp_example) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/tf2_rclcpp_example) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/tf2_rclcpp_example) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/tf2_rclcpp_example) by extension 'ros'
+[0.250s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-seminar-examples/tf2_rclcpp_example' with type 'ros.ament_cmake' and name 'tf2_rclcpp_example'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/tf2_rclpy_example) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/tf2_rclpy_example) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/tf2_rclpy_example) by extension 'ignore_ament_install'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/tf2_rclpy_example) by extensions ['colcon_pkg']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/tf2_rclpy_example) by extension 'colcon_pkg'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/tf2_rclpy_example) by extensions ['colcon_meta']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/tf2_rclpy_example) by extension 'colcon_meta'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/tf2_rclpy_example) by extensions ['ros']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/tf2_rclpy_example) by extension 'ros'
+[0.251s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-seminar-examples/tf2_rclpy_example' with type 'ros.ament_python' and name 'tf2_rclpy_example'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/time_rclcpp_example) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/time_rclcpp_example) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/time_rclcpp_example) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/time_rclcpp_example) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/time_rclcpp_example) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/time_rclcpp_example) by extensions ['colcon_meta']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/time_rclcpp_example) by extension 'colcon_meta'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/time_rclcpp_example) by extensions ['ros']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/time_rclcpp_example) by extension 'ros'
+[0.252s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-seminar-examples/time_rclcpp_example' with type 'ros.ament_cmake' and name 'time_rclcpp_example'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/time_rclpy_example) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/time_rclpy_example) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/time_rclpy_example) by extension 'ignore_ament_install'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/time_rclpy_example) by extensions ['colcon_pkg']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/time_rclpy_example) by extension 'colcon_pkg'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/time_rclpy_example) by extensions ['colcon_meta']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/time_rclpy_example) by extension 'colcon_meta'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/time_rclpy_example) by extensions ['ros']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/time_rclpy_example) by extension 'ros'
+[0.252s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-seminar-examples/time_rclpy_example' with type 'ros.ament_python' and name 'time_rclpy_example'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/topic_service_action_rclcpp_example) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/topic_service_action_rclcpp_example) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/topic_service_action_rclcpp_example) by extension 'ignore_ament_install'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/topic_service_action_rclcpp_example) by extensions ['colcon_pkg']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/topic_service_action_rclcpp_example) by extension 'colcon_pkg'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/topic_service_action_rclcpp_example) by extensions ['colcon_meta']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/topic_service_action_rclcpp_example) by extension 'colcon_meta'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/topic_service_action_rclcpp_example) by extensions ['ros']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/topic_service_action_rclcpp_example) by extension 'ros'
+[0.253s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-seminar-examples/topic_service_action_rclcpp_example' with type 'ros.ament_cmake' and name 'topic_service_action_rclcpp_example'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/topic_service_action_rclpy_example) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/topic_service_action_rclpy_example) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/topic_service_action_rclpy_example) by extension 'ignore_ament_install'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/topic_service_action_rclpy_example) by extensions ['colcon_pkg']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/topic_service_action_rclpy_example) by extension 'colcon_pkg'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/topic_service_action_rclpy_example) by extensions ['colcon_meta']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/topic_service_action_rclpy_example) by extension 'colcon_meta'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/topic_service_action_rclpy_example) by extensions ['ros']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-seminar-examples/topic_service_action_rclpy_example) by extension 'ros'
+[0.254s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-seminar-examples/topic_service_action_rclpy_example' with type 'ros.ament_python' and name 'topic_service_action_rclpy_example'
+[0.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.274s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/minipin/ros2-study/robot_dj/install
+[0.276s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[0.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'logging_rclpy_example' build argument 'cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'logging_rclpy_example' build argument 'cmake_target' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'logging_rclpy_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'logging_rclpy_example' build argument 'cmake_clean_cache' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'logging_rclpy_example' build argument 'cmake_clean_first' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'logging_rclpy_example' build argument 'cmake_force_configure' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'logging_rclpy_example' build argument 'ament_cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'logging_rclpy_example' build argument 'catkin_cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'logging_rclpy_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.310s] DEBUG:colcon.colcon_core.verb:Building package 'logging_rclpy_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/minipin/ros2-study/robot_dj/build/logging_rclpy_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/minipin/ros2-study/robot_dj/install/logging_rclpy_example', 'merge_install': False, 'path': '/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/logging_rclpy_example', 'symlink_install': True, 'test_result_base': None}
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'msg_srv_action_interface_example' build argument 'cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'msg_srv_action_interface_example' build argument 'cmake_target' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'msg_srv_action_interface_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'msg_srv_action_interface_example' build argument 'cmake_clean_cache' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'msg_srv_action_interface_example' build argument 'cmake_clean_first' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'msg_srv_action_interface_example' build argument 'cmake_force_configure' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'msg_srv_action_interface_example' build argument 'ament_cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'msg_srv_action_interface_example' build argument 'catkin_cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'msg_srv_action_interface_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.311s] DEBUG:colcon.colcon_core.verb:Building package 'msg_srv_action_interface_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example', 'merge_install': False, 'path': '/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/msg_srv_action_interface_example', 'symlink_install': True, 'test_result_base': None}
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'my_first_ros_rclcpp_pkg' build argument 'cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'my_first_ros_rclcpp_pkg' build argument 'cmake_target' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'my_first_ros_rclcpp_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'my_first_ros_rclcpp_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'my_first_ros_rclcpp_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'my_first_ros_rclcpp_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'my_first_ros_rclcpp_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'my_first_ros_rclcpp_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'my_first_ros_rclcpp_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.313s] DEBUG:colcon.colcon_core.verb:Building package 'my_first_ros_rclcpp_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/minipin/ros2-study/robot_dj/install/my_first_ros_rclcpp_pkg', 'merge_install': False, 'path': '/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/my_first_ros_rclcpp_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'my_first_ros_rclpy_pkg' build argument 'cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'my_first_ros_rclpy_pkg' build argument 'cmake_target' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'my_first_ros_rclpy_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'my_first_ros_rclpy_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'my_first_ros_rclpy_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'my_first_ros_rclpy_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'my_first_ros_rclpy_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'my_first_ros_rclpy_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'my_first_ros_rclpy_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.314s] DEBUG:colcon.colcon_core.verb:Building package 'my_first_ros_rclpy_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclpy_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/minipin/ros2-study/robot_dj/install/my_first_ros_rclpy_pkg', 'merge_install': False, 'path': '/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/my_first_ros_rclpy_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'ros2env' build argument 'cmake_args' from command line to 'None'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'ros2env' build argument 'cmake_target' from command line to 'None'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'ros2env' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'ros2env' build argument 'cmake_clean_cache' from command line to 'False'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'ros2env' build argument 'cmake_clean_first' from command line to 'False'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'ros2env' build argument 'cmake_force_configure' from command line to 'False'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'ros2env' build argument 'ament_cmake_args' from command line to 'None'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'ros2env' build argument 'catkin_cmake_args' from command line to 'None'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'ros2env' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.315s] DEBUG:colcon.colcon_core.verb:Building package 'ros2env' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/minipin/ros2-study/robot_dj/build/ros2env', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/minipin/ros2-study/robot_dj/install/ros2env', 'merge_install': False, 'path': '/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/ros2env', 'symlink_install': True, 'test_result_base': None}
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'rqt_example' build argument 'cmake_args' from command line to 'None'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'rqt_example' build argument 'cmake_target' from command line to 'None'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'rqt_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'rqt_example' build argument 'cmake_clean_cache' from command line to 'False'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'rqt_example' build argument 'cmake_clean_first' from command line to 'False'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'rqt_example' build argument 'cmake_force_configure' from command line to 'False'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'rqt_example' build argument 'ament_cmake_args' from command line to 'None'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'rqt_example' build argument 'catkin_cmake_args' from command line to 'None'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'rqt_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.316s] DEBUG:colcon.colcon_core.verb:Building package 'rqt_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/minipin/ros2-study/robot_dj/build/rqt_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/minipin/ros2-study/robot_dj/install/rqt_example', 'merge_install': False, 'path': '/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/rqt_example', 'symlink_install': True, 'test_result_base': None}
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'testbot_description' build argument 'cmake_args' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'testbot_description' build argument 'cmake_target' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'testbot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'testbot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'testbot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'testbot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'testbot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'testbot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'testbot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.317s] DEBUG:colcon.colcon_core.verb:Building package 'testbot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/minipin/ros2-study/robot_dj/build/testbot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/minipin/ros2-study/robot_dj/install/testbot_description', 'merge_install': False, 'path': '/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/testbot_description', 'symlink_install': True, 'test_result_base': None}
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'tf2_rclcpp_example' build argument 'cmake_args' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'tf2_rclcpp_example' build argument 'cmake_target' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'tf2_rclcpp_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'tf2_rclcpp_example' build argument 'cmake_clean_cache' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'tf2_rclcpp_example' build argument 'cmake_clean_first' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'tf2_rclcpp_example' build argument 'cmake_force_configure' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'tf2_rclcpp_example' build argument 'ament_cmake_args' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'tf2_rclcpp_example' build argument 'catkin_cmake_args' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'tf2_rclcpp_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.318s] DEBUG:colcon.colcon_core.verb:Building package 'tf2_rclcpp_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/minipin/ros2-study/robot_dj/build/tf2_rclcpp_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/minipin/ros2-study/robot_dj/install/tf2_rclcpp_example', 'merge_install': False, 'path': '/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/tf2_rclcpp_example', 'symlink_install': True, 'test_result_base': None}
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'tf2_rclpy_example' build argument 'cmake_args' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'tf2_rclpy_example' build argument 'cmake_target' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'tf2_rclpy_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'tf2_rclpy_example' build argument 'cmake_clean_cache' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'tf2_rclpy_example' build argument 'cmake_clean_first' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'tf2_rclpy_example' build argument 'cmake_force_configure' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'tf2_rclpy_example' build argument 'ament_cmake_args' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'tf2_rclpy_example' build argument 'catkin_cmake_args' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'tf2_rclpy_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.320s] DEBUG:colcon.colcon_core.verb:Building package 'tf2_rclpy_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/minipin/ros2-study/robot_dj/build/tf2_rclpy_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/minipin/ros2-study/robot_dj/install/tf2_rclpy_example', 'merge_install': False, 'path': '/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/tf2_rclpy_example', 'symlink_install': True, 'test_result_base': None}
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'time_rclcpp_example' build argument 'cmake_args' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'time_rclcpp_example' build argument 'cmake_target' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'time_rclcpp_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'time_rclcpp_example' build argument 'cmake_clean_cache' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'time_rclcpp_example' build argument 'cmake_clean_first' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'time_rclcpp_example' build argument 'cmake_force_configure' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'time_rclcpp_example' build argument 'ament_cmake_args' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'time_rclcpp_example' build argument 'catkin_cmake_args' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'time_rclcpp_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.321s] DEBUG:colcon.colcon_core.verb:Building package 'time_rclcpp_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/minipin/ros2-study/robot_dj/build/time_rclcpp_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/minipin/ros2-study/robot_dj/install/time_rclcpp_example', 'merge_install': False, 'path': '/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/time_rclcpp_example', 'symlink_install': True, 'test_result_base': None}
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'time_rclpy_example' build argument 'cmake_args' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'time_rclpy_example' build argument 'cmake_target' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'time_rclpy_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'time_rclpy_example' build argument 'cmake_clean_cache' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'time_rclpy_example' build argument 'cmake_clean_first' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'time_rclpy_example' build argument 'cmake_force_configure' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'time_rclpy_example' build argument 'ament_cmake_args' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'time_rclpy_example' build argument 'catkin_cmake_args' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'time_rclpy_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.322s] DEBUG:colcon.colcon_core.verb:Building package 'time_rclpy_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/minipin/ros2-study/robot_dj/build/time_rclpy_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/minipin/ros2-study/robot_dj/install/time_rclpy_example', 'merge_install': False, 'path': '/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/time_rclpy_example', 'symlink_install': True, 'test_result_base': None}
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'topic_service_action_rclcpp_example' build argument 'cmake_args' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'topic_service_action_rclcpp_example' build argument 'cmake_target' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'topic_service_action_rclcpp_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'topic_service_action_rclcpp_example' build argument 'cmake_clean_cache' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'topic_service_action_rclcpp_example' build argument 'cmake_clean_first' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'topic_service_action_rclcpp_example' build argument 'cmake_force_configure' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'topic_service_action_rclcpp_example' build argument 'ament_cmake_args' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'topic_service_action_rclcpp_example' build argument 'catkin_cmake_args' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'topic_service_action_rclcpp_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.323s] DEBUG:colcon.colcon_core.verb:Building package 'topic_service_action_rclcpp_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/minipin/ros2-study/robot_dj/build/topic_service_action_rclcpp_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/minipin/ros2-study/robot_dj/install/topic_service_action_rclcpp_example', 'merge_install': False, 'path': '/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/topic_service_action_rclcpp_example', 'symlink_install': True, 'test_result_base': None}
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'topic_service_action_rclpy_example' build argument 'cmake_args' from command line to 'None'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'topic_service_action_rclpy_example' build argument 'cmake_target' from command line to 'None'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'topic_service_action_rclpy_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'topic_service_action_rclpy_example' build argument 'cmake_clean_cache' from command line to 'False'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'topic_service_action_rclpy_example' build argument 'cmake_clean_first' from command line to 'False'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'topic_service_action_rclpy_example' build argument 'cmake_force_configure' from command line to 'False'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'topic_service_action_rclpy_example' build argument 'ament_cmake_args' from command line to 'None'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'topic_service_action_rclpy_example' build argument 'catkin_cmake_args' from command line to 'None'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'topic_service_action_rclpy_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.324s] DEBUG:colcon.colcon_core.verb:Building package 'topic_service_action_rclpy_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/minipin/ros2-study/robot_dj/build/topic_service_action_rclpy_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/minipin/ros2-study/robot_dj/install/topic_service_action_rclpy_example', 'merge_install': False, 'path': '/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/topic_service_action_rclpy_example', 'symlink_install': True, 'test_result_base': None}
+[0.325s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.329s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.330s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/msg_srv_action_interface_example' with build type 'ament_cmake'
+[0.330s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/msg_srv_action_interface_example'
+[0.333s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.334s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.334s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.337s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/logging_rclpy_example' with build type 'ament_python'
+[0.337s] Level 1:colcon.colcon_core.shell:create_environment_hook('logging_rclpy_example', 'ament_prefix_path')
+[0.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minipin/ros2-study/robot_dj/install/logging_rclpy_example/share/logging_rclpy_example/hook/ament_prefix_path.ps1'
+[0.340s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minipin/ros2-study/robot_dj/install/logging_rclpy_example/share/logging_rclpy_example/hook/ament_prefix_path.dsv'
+[0.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minipin/ros2-study/robot_dj/install/logging_rclpy_example/share/logging_rclpy_example/hook/ament_prefix_path.sh'
+[0.342s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.342s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.346s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/my_first_ros_rclcpp_pkg' with build type 'ament_cmake'
+[0.346s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/my_first_ros_rclcpp_pkg'
+[0.348s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.348s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.352s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/my_first_ros_rclpy_pkg' with build type 'ament_python'
+[0.352s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_first_ros_rclpy_pkg', 'ament_prefix_path')
+[0.354s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minipin/ros2-study/robot_dj/install/my_first_ros_rclpy_pkg/share/my_first_ros_rclpy_pkg/hook/ament_prefix_path.ps1'
+[0.354s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minipin/ros2-study/robot_dj/install/my_first_ros_rclpy_pkg/share/my_first_ros_rclpy_pkg/hook/ament_prefix_path.dsv'
+[0.354s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minipin/ros2-study/robot_dj/install/my_first_ros_rclpy_pkg/share/my_first_ros_rclpy_pkg/hook/ament_prefix_path.sh'
+[0.357s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.357s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.360s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/ros2env' with build type 'ament_python'
+[0.360s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2env', 'ament_prefix_path')
+[0.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minipin/ros2-study/robot_dj/install/ros2env/share/ros2env/hook/ament_prefix_path.ps1'
+[0.363s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minipin/ros2-study/robot_dj/install/ros2env/share/ros2env/hook/ament_prefix_path.dsv'
+[0.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minipin/ros2-study/robot_dj/install/ros2env/share/ros2env/hook/ament_prefix_path.sh'
+[0.365s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.365s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.369s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/rqt_example' with build type 'ament_cmake'
+[0.369s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/rqt_example'
+[0.371s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.371s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.374s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/testbot_description' with build type 'ament_cmake'
+[0.374s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/testbot_description'
+[0.376s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.376s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.380s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/tf2_rclcpp_example' with build type 'ament_cmake'
+[0.380s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/tf2_rclcpp_example'
+[0.382s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.382s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.390s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/msg_srv_action_interface_example -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example
+[0.547s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/logging_rclpy_example'
+[0.550s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.550s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.558s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/my_first_ros_rclcpp_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/minipin/ros2-study/robot_dj/install/my_first_ros_rclcpp_pkg
+[0.723s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/my_first_ros_rclpy_pkg'
+[0.727s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.727s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.926s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/ros2env'
+[0.928s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.928s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.936s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/minipin/ros2-study/robot_dj/build/rqt_example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/rqt_example -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/minipin/ros2-study/robot_dj/install/rqt_example
+[0.937s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/minipin/ros2-study/robot_dj/build/testbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/testbot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/minipin/ros2-study/robot_dj/install/testbot_description
+[0.941s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/minipin/ros2-study/robot_dj/build/tf2_rclcpp_example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/tf2_rclcpp_example -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/minipin/ros2-study/robot_dj/install/tf2_rclcpp_example
+[1.377s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclpy_pkg': PYTHONPATH=/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclpy_pkg/prefix_override:/home/minipin/ros2-study/robot_dj/install/my_first_ros_rclpy_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/minipin/ros2-study/robot_dj/build/my_first_ros_rclpy_pkg/build --no-deps install_data
+[1.382s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/minipin/ros2-study/robot_dj/build/ros2env': PYTHONPATH=/home/minipin/ros2-study/robot_dj/build/ros2env/prefix_override:/home/minipin/ros2-study/robot_dj/install/ros2env/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/minipin/ros2-study/robot_dj/build/ros2env/build --no-deps install_data
+[1.388s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/minipin/ros2-study/robot_dj/build/logging_rclpy_example': PYTHONPATH=/home/minipin/ros2-study/robot_dj/build/logging_rclpy_example/prefix_override:/home/minipin/ros2-study/robot_dj/install/logging_rclpy_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/minipin/ros2-study/robot_dj/build/logging_rclpy_example/build --no-deps install_data
+[1.788s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/minipin/ros2-study/robot_dj/build/rqt_example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/rqt_example -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/minipin/ros2-study/robot_dj/install/rqt_example
+[1.788s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/minipin/ros2-study/robot_dj/build/rqt_example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/minipin/ros2-study/robot_dj/build/rqt_example -- -j8 -l8
+[1.868s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/msg_srv_action_interface_example -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example
+[1.868s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example -- -j8 -l8
+[1.938s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_first_ros_rclpy_pkg', 'pythonpath_develop')
+[1.942s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclpy_pkg/share/my_first_ros_rclpy_pkg/hook/pythonpath_develop.ps1'
+[1.944s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclpy_pkg/share/my_first_ros_rclpy_pkg/hook/pythonpath_develop.dsv'
+[1.944s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclpy_pkg/share/my_first_ros_rclpy_pkg/hook/pythonpath_develop.sh'
+[1.943s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclpy_pkg' returned '0': PYTHONPATH=/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclpy_pkg/prefix_override:/home/minipin/ros2-study/robot_dj/install/my_first_ros_rclpy_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/minipin/ros2-study/robot_dj/build/my_first_ros_rclpy_pkg/build --no-deps install_data
+[1.957s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/my_first_ros_rclpy_pkg' for CMake module files
+[1.958s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/my_first_ros_rclpy_pkg' for CMake config files
+[1.959s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/my_first_ros_rclpy_pkg/lib'
+[1.959s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/my_first_ros_rclpy_pkg/bin'
+[1.959s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/my_first_ros_rclpy_pkg/lib/pkgconfig/my_first_ros_rclpy_pkg.pc'
+[1.959s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/my_first_ros_rclpy_pkg/lib/python3.10/site-packages'
+[1.959s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_first_ros_rclpy_pkg', 'pythonpath')
+[1.963s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minipin/ros2-study/robot_dj/install/my_first_ros_rclpy_pkg/share/my_first_ros_rclpy_pkg/hook/pythonpath.ps1'
+[1.963s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minipin/ros2-study/robot_dj/install/my_first_ros_rclpy_pkg/share/my_first_ros_rclpy_pkg/hook/pythonpath.dsv'
+[1.963s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minipin/ros2-study/robot_dj/install/my_first_ros_rclpy_pkg/share/my_first_ros_rclpy_pkg/hook/pythonpath.sh'
+[1.964s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/my_first_ros_rclpy_pkg/bin'
+[1.964s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_first_ros_rclpy_pkg)
+[1.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/minipin/ros2-study/robot_dj/install/my_first_ros_rclpy_pkg/share/my_first_ros_rclpy_pkg/package.ps1'
+[1.968s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/minipin/ros2-study/robot_dj/install/my_first_ros_rclpy_pkg/share/my_first_ros_rclpy_pkg/package.dsv'
+[1.968s] INFO:colcon.colcon_core.shell:Creating package script '/home/minipin/ros2-study/robot_dj/install/my_first_ros_rclpy_pkg/share/my_first_ros_rclpy_pkg/package.sh'
+[1.969s] INFO:colcon.colcon_core.shell:Creating package script '/home/minipin/ros2-study/robot_dj/install/my_first_ros_rclpy_pkg/share/my_first_ros_rclpy_pkg/package.bash'
+[1.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/minipin/ros2-study/robot_dj/install/my_first_ros_rclpy_pkg/share/my_first_ros_rclpy_pkg/package.zsh'
+[1.971s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/minipin/ros2-study/robot_dj/install/my_first_ros_rclpy_pkg/share/colcon-core/packages/my_first_ros_rclpy_pkg)
+[1.973s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/tf2_rclpy_example' with build type 'ament_python'
+[1.973s] Level 1:colcon.colcon_core.shell:create_environment_hook('tf2_rclpy_example', 'ament_prefix_path')
+[1.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minipin/ros2-study/robot_dj/install/tf2_rclpy_example/share/tf2_rclpy_example/hook/ament_prefix_path.ps1'
+[1.978s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minipin/ros2-study/robot_dj/install/tf2_rclpy_example/share/tf2_rclpy_example/hook/ament_prefix_path.dsv'
+[1.978s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minipin/ros2-study/robot_dj/install/tf2_rclpy_example/share/tf2_rclpy_example/hook/ament_prefix_path.sh'
+[1.982s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.983s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.995s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/minipin/ros2-study/robot_dj/build/testbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/testbot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/minipin/ros2-study/robot_dj/install/testbot_description
+[1.996s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/minipin/ros2-study/robot_dj/build/testbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/minipin/ros2-study/robot_dj/build/testbot_description -- -j8 -l8
+[1.996s] Level 1:colcon.colcon_core.shell:create_environment_hook('logging_rclpy_example', 'pythonpath_develop')
+[2.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minipin/ros2-study/robot_dj/build/logging_rclpy_example/share/logging_rclpy_example/hook/pythonpath_develop.ps1'
+[2.000s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minipin/ros2-study/robot_dj/build/logging_rclpy_example/share/logging_rclpy_example/hook/pythonpath_develop.dsv'
+[2.001s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minipin/ros2-study/robot_dj/build/logging_rclpy_example/share/logging_rclpy_example/hook/pythonpath_develop.sh'
+[2.008s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/minipin/ros2-study/robot_dj/build/logging_rclpy_example' returned '0': PYTHONPATH=/home/minipin/ros2-study/robot_dj/build/logging_rclpy_example/prefix_override:/home/minipin/ros2-study/robot_dj/install/logging_rclpy_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/minipin/ros2-study/robot_dj/build/logging_rclpy_example/build --no-deps install_data
+[2.006s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/logging_rclpy_example' for CMake module files
+[2.009s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/logging_rclpy_example' for CMake config files
+[2.009s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/logging_rclpy_example/lib'
+[2.009s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/logging_rclpy_example/bin'
+[2.009s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/logging_rclpy_example/lib/pkgconfig/logging_rclpy_example.pc'
+[2.009s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/logging_rclpy_example/lib/python3.10/site-packages'
+[2.010s] Level 1:colcon.colcon_core.shell:create_environment_hook('logging_rclpy_example', 'pythonpath')
+[2.013s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minipin/ros2-study/robot_dj/install/logging_rclpy_example/share/logging_rclpy_example/hook/pythonpath.ps1'
+[2.014s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minipin/ros2-study/robot_dj/install/logging_rclpy_example/share/logging_rclpy_example/hook/pythonpath.dsv'
+[2.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minipin/ros2-study/robot_dj/install/logging_rclpy_example/share/logging_rclpy_example/hook/pythonpath.sh'
+[2.014s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/logging_rclpy_example/bin'
+[2.015s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(logging_rclpy_example)
+[2.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/minipin/ros2-study/robot_dj/install/logging_rclpy_example/share/logging_rclpy_example/package.ps1'
+[2.019s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/minipin/ros2-study/robot_dj/install/logging_rclpy_example/share/logging_rclpy_example/package.dsv'
+[2.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/minipin/ros2-study/robot_dj/install/logging_rclpy_example/share/logging_rclpy_example/package.sh'
+[2.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/minipin/ros2-study/robot_dj/install/logging_rclpy_example/share/logging_rclpy_example/package.bash'
+[2.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/minipin/ros2-study/robot_dj/install/logging_rclpy_example/share/logging_rclpy_example/package.zsh'
+[2.020s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/minipin/ros2-study/robot_dj/install/logging_rclpy_example/share/colcon-core/packages/logging_rclpy_example)
+[2.022s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/time_rclcpp_example' with build type 'ament_cmake'
+[2.023s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/time_rclcpp_example'
+[2.027s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.027s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.042s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/my_first_ros_rclcpp_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/minipin/ros2-study/robot_dj/install/my_first_ros_rclcpp_pkg
+[2.052s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg -- -j8 -l8
+[2.056s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2env', 'pythonpath_develop')
+[2.060s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minipin/ros2-study/robot_dj/build/ros2env/share/ros2env/hook/pythonpath_develop.ps1'
+[2.060s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minipin/ros2-study/robot_dj/build/ros2env/share/ros2env/hook/pythonpath_develop.dsv'
+[2.061s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minipin/ros2-study/robot_dj/build/ros2env/share/ros2env/hook/pythonpath_develop.sh'
+[2.061s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/minipin/ros2-study/robot_dj/build/ros2env' returned '0': PYTHONPATH=/home/minipin/ros2-study/robot_dj/build/ros2env/prefix_override:/home/minipin/ros2-study/robot_dj/install/ros2env/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/minipin/ros2-study/robot_dj/build/ros2env/build --no-deps install_data
+[2.067s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/ros2env' for CMake module files
+[2.067s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/ros2env' for CMake config files
+[2.068s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/ros2env/lib'
+[2.068s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/ros2env/bin'
+[2.068s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/ros2env/lib/pkgconfig/ros2env.pc'
+[2.068s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/ros2env/lib/python3.10/site-packages'
+[2.068s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2env', 'pythonpath')
+[2.071s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minipin/ros2-study/robot_dj/install/ros2env/share/ros2env/hook/pythonpath.ps1'
+[2.072s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minipin/ros2-study/robot_dj/install/ros2env/share/ros2env/hook/pythonpath.dsv'
+[2.072s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minipin/ros2-study/robot_dj/install/ros2env/share/ros2env/hook/pythonpath.sh'
+[2.072s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/ros2env/bin'
+[2.072s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2env)
+[2.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/minipin/ros2-study/robot_dj/install/ros2env/share/ros2env/package.ps1'
+[2.077s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/minipin/ros2-study/robot_dj/install/ros2env/share/ros2env/package.dsv'
+[2.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/minipin/ros2-study/robot_dj/install/ros2env/share/ros2env/package.sh'
+[2.078s] INFO:colcon.colcon_core.shell:Creating package script '/home/minipin/ros2-study/robot_dj/install/ros2env/share/ros2env/package.bash'
+[2.078s] INFO:colcon.colcon_core.shell:Creating package script '/home/minipin/ros2-study/robot_dj/install/ros2env/share/ros2env/package.zsh'
+[2.078s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/minipin/ros2-study/robot_dj/install/ros2env/share/colcon-core/packages/ros2env)
+[2.357s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/tf2_rclpy_example'
+[2.361s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.361s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.373s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/time_rclpy_example' with build type 'ament_python'
+[2.373s] Level 1:colcon.colcon_core.shell:create_environment_hook('time_rclpy_example', 'ament_prefix_path')
+[2.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minipin/ros2-study/robot_dj/install/time_rclpy_example/share/time_rclpy_example/hook/ament_prefix_path.ps1'
+[2.377s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minipin/ros2-study/robot_dj/install/time_rclpy_example/share/time_rclpy_example/hook/ament_prefix_path.dsv'
+[2.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minipin/ros2-study/robot_dj/install/time_rclpy_example/share/time_rclpy_example/hook/ament_prefix_path.sh'
+[2.382s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.382s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.390s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/minipin/ros2-study/robot_dj/build/testbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/minipin/ros2-study/robot_dj/build/testbot_description -- -j8 -l8
+[2.395s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/minipin/ros2-study/robot_dj/build/time_rclcpp_example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/time_rclcpp_example -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/minipin/ros2-study/robot_dj/install/time_rclcpp_example
+[2.409s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/minipin/ros2-study/robot_dj/build/rqt_example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/minipin/ros2-study/robot_dj/build/rqt_example -- -j8 -l8
+[2.793s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/time_rclpy_example'
+[2.798s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.798s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.835s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/minipin/ros2-study/robot_dj/build/testbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/minipin/ros2-study/robot_dj/build/testbot_description
+[2.855s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/minipin/ros2-study/robot_dj/build/rqt_example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/minipin/ros2-study/robot_dj/build/rqt_example
+[2.952s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/minipin/ros2-study/robot_dj/build/tf2_rclpy_example': PYTHONPATH=/home/minipin/ros2-study/robot_dj/build/tf2_rclpy_example/prefix_override:/home/minipin/ros2-study/robot_dj/install/tf2_rclpy_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/minipin/ros2-study/robot_dj/build/tf2_rclpy_example/build --no-deps install_data
+[3.195s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(testbot_description)
+[3.200s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/testbot_description' for CMake module files
+[3.201s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/minipin/ros2-study/robot_dj/build/testbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/minipin/ros2-study/robot_dj/build/testbot_description
+[3.202s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/testbot_description' for CMake config files
+[3.202s] Level 1:colcon.colcon_core.shell:create_environment_hook('testbot_description', 'cmake_prefix_path')
+[3.206s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minipin/ros2-study/robot_dj/install/testbot_description/share/testbot_description/hook/cmake_prefix_path.ps1'
+[3.206s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minipin/ros2-study/robot_dj/install/testbot_description/share/testbot_description/hook/cmake_prefix_path.dsv'
+[3.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minipin/ros2-study/robot_dj/install/testbot_description/share/testbot_description/hook/cmake_prefix_path.sh'
+[3.207s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/testbot_description/bin'
+[3.207s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/testbot_description/lib/pkgconfig/testbot_description.pc'
+[3.208s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/testbot_description/lib/python3.10/site-packages'
+[3.208s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/testbot_description/bin'
+[3.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/minipin/ros2-study/robot_dj/install/testbot_description/share/testbot_description/package.ps1'
+[3.212s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/minipin/ros2-study/robot_dj/install/testbot_description/share/testbot_description/package.dsv'
+[3.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/minipin/ros2-study/robot_dj/install/testbot_description/share/testbot_description/package.sh'
+[3.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/minipin/ros2-study/robot_dj/install/testbot_description/share/testbot_description/package.bash'
+[3.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/minipin/ros2-study/robot_dj/install/testbot_description/share/testbot_description/package.zsh'
+[3.230s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/minipin/ros2-study/robot_dj/install/testbot_description/share/colcon-core/packages/testbot_description)
+[3.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/minipin/ros2-study/robot_dj/build/time_rclpy_example': PYTHONPATH=/home/minipin/ros2-study/robot_dj/build/time_rclpy_example/prefix_override:/home/minipin/ros2-study/robot_dj/install/time_rclpy_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/minipin/ros2-study/robot_dj/build/time_rclpy_example/build --no-deps install_data
+[3.422s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(testbot_description)
+[3.427s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/testbot_description' for CMake module files
+[3.428s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/testbot_description' for CMake config files
+[3.428s] Level 1:colcon.colcon_core.shell:create_environment_hook('testbot_description', 'cmake_prefix_path')
+[3.432s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minipin/ros2-study/robot_dj/install/testbot_description/share/testbot_description/hook/cmake_prefix_path.ps1'
+[3.433s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minipin/ros2-study/robot_dj/install/testbot_description/share/testbot_description/hook/cmake_prefix_path.dsv'
+[3.433s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minipin/ros2-study/robot_dj/install/testbot_description/share/testbot_description/hook/cmake_prefix_path.sh'
+[3.434s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/testbot_description/bin'
+[3.434s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/testbot_description/lib/pkgconfig/testbot_description.pc'
+[3.434s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/testbot_description/lib/python3.10/site-packages'
+[3.434s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/testbot_description/bin'
+[3.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/minipin/ros2-study/robot_dj/install/testbot_description/share/testbot_description/package.ps1'
+[3.439s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/minipin/ros2-study/robot_dj/install/testbot_description/share/testbot_description/package.dsv'
+[3.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/minipin/ros2-study/robot_dj/install/testbot_description/share/testbot_description/package.sh'
+[3.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/minipin/ros2-study/robot_dj/install/testbot_description/share/testbot_description/package.bash'
+[3.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/minipin/ros2-study/robot_dj/install/testbot_description/share/testbot_description/package.zsh'
+[3.440s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/minipin/ros2-study/robot_dj/install/testbot_description/share/colcon-core/packages/testbot_description)
+[3.501s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/minipin/ros2-study/robot_dj/build/tf2_rclcpp_example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/tf2_rclcpp_example -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/minipin/ros2-study/robot_dj/install/tf2_rclcpp_example
+[3.501s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/minipin/ros2-study/robot_dj/build/tf2_rclcpp_example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/minipin/ros2-study/robot_dj/build/tf2_rclcpp_example -- -j8 -l8
+[3.718s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rqt_example)
+[3.723s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/rqt_example' for CMake module files
+[3.724s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/minipin/ros2-study/robot_dj/build/rqt_example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/minipin/ros2-study/robot_dj/build/rqt_example
+[3.725s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/rqt_example' for CMake config files
+[3.725s] Level 1:colcon.colcon_core.shell:create_environment_hook('rqt_example', 'cmake_prefix_path')
+[3.729s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minipin/ros2-study/robot_dj/install/rqt_example/share/rqt_example/hook/cmake_prefix_path.ps1'
+[3.730s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minipin/ros2-study/robot_dj/install/rqt_example/share/rqt_example/hook/cmake_prefix_path.dsv'
+[3.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minipin/ros2-study/robot_dj/install/rqt_example/share/rqt_example/hook/cmake_prefix_path.sh'
+[3.730s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/rqt_example/lib'
+[3.731s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/rqt_example/bin'
+[3.731s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/rqt_example/lib/pkgconfig/rqt_example.pc'
+[3.731s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/rqt_example/lib/python3.10/site-packages'
+[3.731s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/rqt_example/bin'
+[3.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/minipin/ros2-study/robot_dj/install/rqt_example/share/rqt_example/package.ps1'
+[3.761s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/minipin/ros2-study/robot_dj/install/rqt_example/share/rqt_example/package.dsv'
+[3.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/minipin/ros2-study/robot_dj/install/rqt_example/share/rqt_example/package.sh'
+[3.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/minipin/ros2-study/robot_dj/install/rqt_example/share/rqt_example/package.bash'
+[3.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/minipin/ros2-study/robot_dj/install/rqt_example/share/rqt_example/package.zsh'
+[3.762s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/minipin/ros2-study/robot_dj/install/rqt_example/share/colcon-core/packages/rqt_example)
+[4.006s] Level 1:colcon.colcon_core.shell:create_environment_hook('tf2_rclpy_example', 'pythonpath_develop')
+[4.010s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minipin/ros2-study/robot_dj/build/tf2_rclpy_example/share/tf2_rclpy_example/hook/pythonpath_develop.ps1'
+[4.010s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/minipin/ros2-study/robot_dj/build/tf2_rclpy_example' returned '0': PYTHONPATH=/home/minipin/ros2-study/robot_dj/build/tf2_rclpy_example/prefix_override:/home/minipin/ros2-study/robot_dj/install/tf2_rclpy_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/minipin/ros2-study/robot_dj/build/tf2_rclpy_example/build --no-deps install_data
+[4.011s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minipin/ros2-study/robot_dj/build/tf2_rclpy_example/share/tf2_rclpy_example/hook/pythonpath_develop.dsv'
+[4.011s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minipin/ros2-study/robot_dj/build/tf2_rclpy_example/share/tf2_rclpy_example/hook/pythonpath_develop.sh'
+[4.016s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/tf2_rclpy_example' for CMake module files
+[4.017s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/tf2_rclpy_example' for CMake config files
+[4.017s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/tf2_rclpy_example/lib'
+[4.017s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/tf2_rclpy_example/bin'
+[4.017s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/tf2_rclpy_example/lib/pkgconfig/tf2_rclpy_example.pc'
+[4.018s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/tf2_rclpy_example/lib/python3.10/site-packages'
+[4.018s] Level 1:colcon.colcon_core.shell:create_environment_hook('tf2_rclpy_example', 'pythonpath')
+[4.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minipin/ros2-study/robot_dj/install/tf2_rclpy_example/share/tf2_rclpy_example/hook/pythonpath.ps1'
+[4.046s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minipin/ros2-study/robot_dj/install/tf2_rclpy_example/share/tf2_rclpy_example/hook/pythonpath.dsv'
+[4.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minipin/ros2-study/robot_dj/install/tf2_rclpy_example/share/tf2_rclpy_example/hook/pythonpath.sh'
+[4.046s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/tf2_rclpy_example/bin'
+[4.046s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tf2_rclpy_example)
+[4.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/minipin/ros2-study/robot_dj/install/tf2_rclpy_example/share/tf2_rclpy_example/package.ps1'
+[4.051s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/minipin/ros2-study/robot_dj/install/tf2_rclpy_example/share/tf2_rclpy_example/package.dsv'
+[4.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/minipin/ros2-study/robot_dj/install/tf2_rclpy_example/share/tf2_rclpy_example/package.sh'
+[4.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/minipin/ros2-study/robot_dj/install/tf2_rclpy_example/share/tf2_rclpy_example/package.bash'
+[4.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/minipin/ros2-study/robot_dj/install/tf2_rclpy_example/share/tf2_rclpy_example/package.zsh'
+[4.052s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/minipin/ros2-study/robot_dj/install/tf2_rclpy_example/share/colcon-core/packages/tf2_rclpy_example)
+[4.069s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rqt_example)
+[4.090s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/rqt_example' for CMake module files
+[4.091s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/rqt_example' for CMake config files
+[4.091s] Level 1:colcon.colcon_core.shell:create_environment_hook('rqt_example', 'cmake_prefix_path')
+[4.095s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minipin/ros2-study/robot_dj/install/rqt_example/share/rqt_example/hook/cmake_prefix_path.ps1'
+[4.095s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minipin/ros2-study/robot_dj/install/rqt_example/share/rqt_example/hook/cmake_prefix_path.dsv'
+[4.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minipin/ros2-study/robot_dj/install/rqt_example/share/rqt_example/hook/cmake_prefix_path.sh'
+[4.096s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/rqt_example/lib'
+[4.096s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/rqt_example/bin'
+[4.096s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/rqt_example/lib/pkgconfig/rqt_example.pc'
+[4.114s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/rqt_example/lib/python3.10/site-packages'
+[4.114s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/rqt_example/bin'
+[4.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/minipin/ros2-study/robot_dj/install/rqt_example/share/rqt_example/package.ps1'
+[4.118s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/minipin/ros2-study/robot_dj/install/rqt_example/share/rqt_example/package.dsv'
+[4.119s] INFO:colcon.colcon_core.shell:Creating package script '/home/minipin/ros2-study/robot_dj/install/rqt_example/share/rqt_example/package.sh'
+[4.119s] INFO:colcon.colcon_core.shell:Creating package script '/home/minipin/ros2-study/robot_dj/install/rqt_example/share/rqt_example/package.bash'
+[4.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/minipin/ros2-study/robot_dj/install/rqt_example/share/rqt_example/package.zsh'
+[4.120s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/minipin/ros2-study/robot_dj/install/rqt_example/share/colcon-core/packages/rqt_example)
+[4.373s] Level 1:colcon.colcon_core.shell:create_environment_hook('time_rclpy_example', 'pythonpath_develop')
+[4.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minipin/ros2-study/robot_dj/build/time_rclpy_example/share/time_rclpy_example/hook/pythonpath_develop.ps1'
+[4.378s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minipin/ros2-study/robot_dj/build/time_rclpy_example/share/time_rclpy_example/hook/pythonpath_develop.dsv'
+[4.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minipin/ros2-study/robot_dj/build/time_rclpy_example/share/time_rclpy_example/hook/pythonpath_develop.sh'
+[4.378s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/minipin/ros2-study/robot_dj/build/time_rclpy_example' returned '0': PYTHONPATH=/home/minipin/ros2-study/robot_dj/build/time_rclpy_example/prefix_override:/home/minipin/ros2-study/robot_dj/install/time_rclpy_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/minipin/ros2-study/robot_dj/build/time_rclpy_example/build --no-deps install_data
+[4.384s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/time_rclpy_example' for CMake module files
+[4.385s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/time_rclpy_example' for CMake config files
+[4.386s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/time_rclpy_example/lib'
+[4.386s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/time_rclpy_example/bin'
+[4.386s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/time_rclpy_example/lib/pkgconfig/time_rclpy_example.pc'
+[4.386s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/time_rclpy_example/lib/python3.10/site-packages'
+[4.386s] Level 1:colcon.colcon_core.shell:create_environment_hook('time_rclpy_example', 'pythonpath')
+[4.394s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minipin/ros2-study/robot_dj/install/time_rclpy_example/share/time_rclpy_example/hook/pythonpath.ps1'
+[4.398s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minipin/ros2-study/robot_dj/install/time_rclpy_example/share/time_rclpy_example/hook/pythonpath.dsv'
+[4.398s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minipin/ros2-study/robot_dj/install/time_rclpy_example/share/time_rclpy_example/hook/pythonpath.sh'
+[4.399s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/time_rclpy_example/bin'
+[4.399s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(time_rclpy_example)
+[4.403s] INFO:colcon.colcon_core.shell:Creating package script '/home/minipin/ros2-study/robot_dj/install/time_rclpy_example/share/time_rclpy_example/package.ps1'
+[4.421s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/minipin/ros2-study/robot_dj/install/time_rclpy_example/share/time_rclpy_example/package.dsv'
+[4.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/minipin/ros2-study/robot_dj/install/time_rclpy_example/share/time_rclpy_example/package.sh'
+[4.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/minipin/ros2-study/robot_dj/install/time_rclpy_example/share/time_rclpy_example/package.bash'
+[4.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/minipin/ros2-study/robot_dj/install/time_rclpy_example/share/time_rclpy_example/package.zsh'
+[4.423s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/minipin/ros2-study/robot_dj/install/time_rclpy_example/share/colcon-core/packages/time_rclpy_example)
+[6.169s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/minipin/ros2-study/robot_dj/build/time_rclcpp_example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/time_rclcpp_example -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/minipin/ros2-study/robot_dj/install/time_rclcpp_example
+[6.170s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/minipin/ros2-study/robot_dj/build/time_rclcpp_example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/minipin/ros2-study/robot_dj/build/time_rclcpp_example -- -j8 -l8
+[8.757s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example -- -j8 -l8
+[8.838s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example
+[9.587s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(msg_srv_action_interface_example)
+[9.592s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example' for CMake module files
+[9.592s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example
+[9.593s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example' for CMake config files
+[9.594s] Level 1:colcon.colcon_core.shell:create_environment_hook('msg_srv_action_interface_example', 'cmake_prefix_path')
+[9.597s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/hook/cmake_prefix_path.ps1'
+[9.598s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/hook/cmake_prefix_path.dsv'
+[9.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/hook/cmake_prefix_path.sh'
+[9.598s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/lib'
+[9.598s] Level 1:colcon.colcon_core.shell:create_environment_hook('msg_srv_action_interface_example', 'ld_library_path_lib')
+[9.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/hook/ld_library_path_lib.ps1'
+[9.602s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/hook/ld_library_path_lib.dsv'
+[9.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/hook/ld_library_path_lib.sh'
+[9.603s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/bin'
+[9.603s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/lib/pkgconfig/msg_srv_action_interface_example.pc'
+[9.603s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/lib/python3.10/site-packages'
+[9.603s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/bin'
+[9.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/package.ps1'
+[9.607s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/package.dsv'
+[9.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/package.sh'
+[9.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/package.bash'
+[9.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/package.zsh'
+[9.609s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/colcon-core/packages/msg_srv_action_interface_example)
+[9.657s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(msg_srv_action_interface_example)
+[9.662s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example' for CMake module files
+[9.662s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example' for CMake config files
+[9.663s] Level 1:colcon.colcon_core.shell:create_environment_hook('msg_srv_action_interface_example', 'cmake_prefix_path')
+[9.667s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/hook/cmake_prefix_path.ps1'
+[9.667s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/hook/cmake_prefix_path.dsv'
+[9.668s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/hook/cmake_prefix_path.sh'
+[9.668s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/lib'
+[9.668s] Level 1:colcon.colcon_core.shell:create_environment_hook('msg_srv_action_interface_example', 'ld_library_path_lib')
+[9.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/hook/ld_library_path_lib.ps1'
+[9.672s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/hook/ld_library_path_lib.dsv'
+[9.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/hook/ld_library_path_lib.sh'
+[9.673s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/bin'
+[9.673s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/lib/pkgconfig/msg_srv_action_interface_example.pc'
+[9.673s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/lib/python3.10/site-packages'
+[9.673s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/bin'
+[9.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/package.ps1'
+[9.678s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/package.dsv'
+[9.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/package.sh'
+[9.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/package.bash'
+[9.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/package.zsh'
+[9.679s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/colcon-core/packages/msg_srv_action_interface_example)
+[9.679s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/topic_service_action_rclcpp_example' with build type 'ament_cmake'
+[9.680s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/topic_service_action_rclcpp_example'
+[9.683s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.683s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.690s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/topic_service_action_rclpy_example' with build type 'ament_python'
+[9.691s] Level 1:colcon.colcon_core.shell:create_environment_hook('topic_service_action_rclpy_example', 'ament_prefix_path')
+[9.694s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minipin/ros2-study/robot_dj/install/topic_service_action_rclpy_example/share/topic_service_action_rclpy_example/hook/ament_prefix_path.ps1'
+[9.695s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minipin/ros2-study/robot_dj/install/topic_service_action_rclpy_example/share/topic_service_action_rclpy_example/hook/ament_prefix_path.dsv'
+[9.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minipin/ros2-study/robot_dj/install/topic_service_action_rclpy_example/share/topic_service_action_rclpy_example/hook/ament_prefix_path.sh'
+[9.699s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.699s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.708s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/minipin/ros2-study/robot_dj/build/topic_service_action_rclcpp_example': AMENT_PREFIX_PATH=/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example:/opt/ros/humble LD_LIBRARY_PATH=/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/topic_service_action_rclcpp_example -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/minipin/ros2-study/robot_dj/install/topic_service_action_rclcpp_example
+[10.010s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/topic_service_action_rclpy_example'
+[10.014s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.014s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/minipin/ros2-study/robot_dj/build/topic_service_action_rclpy_example': AMENT_PREFIX_PATH=/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example LD_LIBRARY_PATH=/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/minipin/ros2-study/robot_dj/build/topic_service_action_rclpy_example/prefix_override:/home/minipin/ros2-study/robot_dj/install/topic_service_action_rclpy_example/lib/python3.10/site-packages:/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/minipin/ros2-study/robot_dj/build/topic_service_action_rclpy_example/build --no-deps install_data
+[10.504s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/minipin/ros2-study/robot_dj/build/tf2_rclcpp_example' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/minipin/ros2-study/robot_dj/build/tf2_rclcpp_example -- -j8 -l8
+[10.523s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tf2_rclcpp_example)
+[10.527s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/tf2_rclcpp_example' for CMake module files
+[10.528s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/tf2_rclcpp_example' for CMake config files
+[10.528s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/tf2_rclcpp_example/bin'
+[10.528s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/tf2_rclcpp_example/lib/pkgconfig/tf2_rclcpp_example.pc'
+[10.528s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/tf2_rclcpp_example/lib/python3.10/site-packages'
+[10.529s] Level 1:colcon.colcon_core.environment:checking '/home/minipin/ros2-study/robot_dj/install/tf2_rclcpp_example/bin'
+[10.532s] INFO:colcon.colcon_core.shell:Creating package script '/home/minipin/ros2-study/robot_dj/install/tf2_rclcpp_example/share/tf2_rclcpp_example/package.ps1'
+[10.533s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/minipin/ros2-study/robot_dj/install/tf2_rclcpp_example/share/tf2_rclcpp_example/package.dsv'
+[10.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/minipin/ros2-study/robot_dj/install/tf2_rclcpp_example/share/tf2_rclcpp_example/package.sh'
+[10.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/minipin/ros2-study/robot_dj/install/tf2_rclcpp_example/share/tf2_rclcpp_example/package.bash'
+[10.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/minipin/ros2-study/robot_dj/install/tf2_rclcpp_example/share/tf2_rclcpp_example/package.zsh'
+[10.534s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/minipin/ros2-study/robot_dj/install/tf2_rclcpp_example/share/colcon-core/packages/tf2_rclcpp_example)
+[12.108s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.108s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.108s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[12.108s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.112s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.112s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.112s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.121s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.125s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/minipin/ros2-study/robot_dj/install/local_setup.ps1'
+[12.126s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/minipin/ros2-study/robot_dj/install/_local_setup_util_ps1.py'
+[12.128s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/minipin/ros2-study/robot_dj/install/setup.ps1'
+[12.130s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/minipin/ros2-study/robot_dj/install/local_setup.sh'
+[12.130s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/minipin/ros2-study/robot_dj/install/_local_setup_util_sh.py'
+[12.131s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/minipin/ros2-study/robot_dj/install/setup.sh'
+[12.133s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/minipin/ros2-study/robot_dj/install/local_setup.bash'
+[12.133s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/minipin/ros2-study/robot_dj/install/setup.bash'
+[12.135s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/minipin/ros2-study/robot_dj/install/local_setup.zsh'
+[12.135s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/minipin/ros2-study/robot_dj/install/setup.zsh'

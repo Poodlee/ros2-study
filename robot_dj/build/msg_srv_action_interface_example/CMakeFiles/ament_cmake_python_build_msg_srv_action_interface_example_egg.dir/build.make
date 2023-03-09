@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/minipin/ros2-study/robot_dj/src/msg_srv_action_interface_example
+CMAKE_SOURCE_DIR = /home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/msg_srv_action_interface_example
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_build_msg_srv_action_interface_example_egg.dir/cle
 .PHONY : CMakeFiles/ament_cmake_python_build_msg_srv_action_interface_example_egg.dir/clean
 
 CMakeFiles/ament_cmake_python_build_msg_srv_action_interface_example_egg.dir/depend:
-	cd /home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/minipin/ros2-study/robot_dj/src/msg_srv_action_interface_example /home/minipin/ros2-study/robot_dj/src/msg_srv_action_interface_example /home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example /home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example /home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example/CMakeFiles/ament_cmake_python_build_msg_srv_action_interface_example_egg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/msg_srv_action_interface_example /home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/msg_srv_action_interface_example /home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example /home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example /home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example/CMakeFiles/ament_cmake_python_build_msg_srv_action_interface_example_egg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_build_msg_srv_action_interface_example_egg.dir/depend
 

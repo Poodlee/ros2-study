@@ -1,0 +1,38 @@
+[0.014s] Invoking command in '/home/minipin/ros2-study/robot_dj/build/topic_service_action_rclcpp_example': CMAKE_PREFIX_PATH=/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example:/home/minipin/ros2-study/robot_dj/install/testbot_description:/home/minipin/ros2-study/robot_dj/install/rqt_example:/home/minipin/ros2-study/robot_dj/install/time_rclpy_example:/home/minipin/ros2-study/robot_dj/install/tf2_rclpy_example:/home/minipin/ros2-study/robot_dj/install/ros2env:/home/minipin/ros2-study/robot_dj/install/my_first_ros_rclpy_pkg:/home/minipin/ros2-study/robot_dj/install/logging_rclpy_example:/opt/ros/humble /usr/bin/cmake --build /home/minipin/ros2-study/robot_dj/build/topic_service_action_rclcpp_example -- -j8 -l8
+[0.042s] [35m[1mConsolidate compiler generated dependencies of target checker[0m
+[0.048s] [ 11%] Built target gtest
+[0.048s] [ 23%] Built target gtest_main
+[0.048s] [ 35%] Built target operator
+[0.049s] [ 52%] Built target calculator
+[0.049s] [ 64%] Built target argument
+[0.058s] [ 70%] [32mBuilding CXX object CMakeFiles/checker.dir/src/checker/main.cpp.o[0m
+[0.058s] [ 76%] [32mBuilding CXX object CMakeFiles/checker.dir/src/checker/checker.cpp.o[0m
+[0.067s] [ 94%] Built target test_calculator
+[2.838s] [100%] [32m[1mLinking CXX executable checker[0m
+[2.961s] [100%] Built target checker
+[2.972s] Invoked command in '/home/minipin/ros2-study/robot_dj/build/topic_service_action_rclcpp_example' returned '0': CMAKE_PREFIX_PATH=/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example:/home/minipin/ros2-study/robot_dj/install/testbot_description:/home/minipin/ros2-study/robot_dj/install/rqt_example:/home/minipin/ros2-study/robot_dj/install/time_rclpy_example:/home/minipin/ros2-study/robot_dj/install/tf2_rclpy_example:/home/minipin/ros2-study/robot_dj/install/ros2env:/home/minipin/ros2-study/robot_dj/install/my_first_ros_rclpy_pkg:/home/minipin/ros2-study/robot_dj/install/logging_rclpy_example:/opt/ros/humble /usr/bin/cmake --build /home/minipin/ros2-study/robot_dj/build/topic_service_action_rclcpp_example -- -j8 -l8
+[3.006s] Invoking command in '/home/minipin/ros2-study/robot_dj/build/topic_service_action_rclcpp_example': CMAKE_PREFIX_PATH=/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example:/home/minipin/ros2-study/robot_dj/install/testbot_description:/home/minipin/ros2-study/robot_dj/install/rqt_example:/home/minipin/ros2-study/robot_dj/install/time_rclpy_example:/home/minipin/ros2-study/robot_dj/install/tf2_rclpy_example:/home/minipin/ros2-study/robot_dj/install/ros2env:/home/minipin/ros2-study/robot_dj/install/my_first_ros_rclpy_pkg:/home/minipin/ros2-study/robot_dj/install/logging_rclpy_example:/opt/ros/humble /usr/bin/cmake --install /home/minipin/ros2-study/robot_dj/build/topic_service_action_rclcpp_example
+[3.011s] -- Install configuration: ""
+[3.012s] -- Execute custom install script
+[3.013s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/topic_service_action_rclcpp_example/lib/topic_service_action_rclcpp_example/argument
+[3.020s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/topic_service_action_rclcpp_example/lib/topic_service_action_rclcpp_example/calculator
+[3.025s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/topic_service_action_rclcpp_example/lib/topic_service_action_rclcpp_example/checker
+[3.030s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/topic_service_action_rclcpp_example/lib/topic_service_action_rclcpp_example/operator
+[3.036s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/topic_service_action_rclcpp_example/share/topic_service_action_rclcpp_example/launch/arithmetic.launch.py
+[3.041s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/topic_service_action_rclcpp_example/share/topic_service_action_rclcpp_example/param/arithmetic_config.yaml
+[3.046s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/topic_service_action_rclcpp_example/share/ament_index/resource_index/package_run_dependencies/topic_service_action_rclcpp_example
+[3.053s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/topic_service_action_rclcpp_example/share/ament_index/resource_index/parent_prefix_path/topic_service_action_rclcpp_example
+[3.058s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/topic_service_action_rclcpp_example/share/topic_service_action_rclcpp_example/environment/ament_prefix_path.sh
+[3.062s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/topic_service_action_rclcpp_example/share/topic_service_action_rclcpp_example/environment/ament_prefix_path.dsv
+[3.068s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/topic_service_action_rclcpp_example/share/topic_service_action_rclcpp_example/environment/path.sh
+[3.073s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/topic_service_action_rclcpp_example/share/topic_service_action_rclcpp_example/environment/path.dsv
+[3.078s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/topic_service_action_rclcpp_example/share/topic_service_action_rclcpp_example/local_setup.bash
+[3.084s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/topic_service_action_rclcpp_example/share/topic_service_action_rclcpp_example/local_setup.sh
+[3.090s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/topic_service_action_rclcpp_example/share/topic_service_action_rclcpp_example/local_setup.zsh
+[3.094s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/topic_service_action_rclcpp_example/share/topic_service_action_rclcpp_example/local_setup.dsv
+[3.101s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/topic_service_action_rclcpp_example/share/topic_service_action_rclcpp_example/package.dsv
+[3.107s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/topic_service_action_rclcpp_example/share/ament_index/resource_index/packages/topic_service_action_rclcpp_example
+[3.112s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/topic_service_action_rclcpp_example/share/topic_service_action_rclcpp_example/cmake/topic_service_action_rclcpp_exampleConfig.cmake
+[3.118s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/topic_service_action_rclcpp_example/share/topic_service_action_rclcpp_example/cmake/topic_service_action_rclcpp_exampleConfig-version.cmake
+[3.123s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/topic_service_action_rclcpp_example/share/topic_service_action_rclcpp_example/package.xml
+[3.134s] Invoked command in '/home/minipin/ros2-study/robot_dj/build/topic_service_action_rclcpp_example' returned '0': CMAKE_PREFIX_PATH=/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example:/home/minipin/ros2-study/robot_dj/install/testbot_description:/home/minipin/ros2-study/robot_dj/install/rqt_example:/home/minipin/ros2-study/robot_dj/install/time_rclpy_example:/home/minipin/ros2-study/robot_dj/install/tf2_rclpy_example:/home/minipin/ros2-study/robot_dj/install/ros2env:/home/minipin/ros2-study/robot_dj/install/my_first_ros_rclpy_pkg:/home/minipin/ros2-study/robot_dj/install/logging_rclpy_example:/opt/ros/humble /usr/bin/cmake --install /home/minipin/ros2-study/robot_dj/build/topic_service_action_rclcpp_example

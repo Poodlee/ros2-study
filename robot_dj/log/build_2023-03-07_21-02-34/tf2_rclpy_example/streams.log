@@ -1,0 +1,36 @@
+[0.974s] Invoking command in '/home/minipin/ros2-study/robot_dj/build/tf2_rclpy_example': PYTHONPATH=/home/minipin/ros2-study/robot_dj/build/tf2_rclpy_example/prefix_override:/home/minipin/ros2-study/robot_dj/install/tf2_rclpy_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/minipin/ros2-study/robot_dj/build/tf2_rclpy_example/build --no-deps install_data
+[1.524s] running develop
+[1.524s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.524s]   warnings.warn(
+[1.524s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.524s]   warnings.warn(
+[1.602s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+[1.602s]   warnings.warn(
+[1.603s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[1.603s]   warnings.warn(
+[1.603s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[1.603s]   warnings.warn(
+[1.880s] running egg_info
+[1.880s] creating tf2_rclpy_example.egg-info
+[1.881s] writing tf2_rclpy_example.egg-info/PKG-INFO
+[1.881s] writing dependency_links to tf2_rclpy_example.egg-info/dependency_links.txt
+[1.881s] writing entry points to tf2_rclpy_example.egg-info/entry_points.txt
+[1.882s] writing requirements to tf2_rclpy_example.egg-info/requires.txt
+[1.882s] writing top-level names to tf2_rclpy_example.egg-info/top_level.txt
+[1.882s] writing manifest file 'tf2_rclpy_example.egg-info/SOURCES.txt'
+[1.906s] reading manifest file 'tf2_rclpy_example.egg-info/SOURCES.txt'
+[1.907s] writing manifest file 'tf2_rclpy_example.egg-info/SOURCES.txt'
+[1.910s] running build_ext
+[1.910s] Creating /home/minipin/ros2-study/robot_dj/install/tf2_rclpy_example/lib/python3.10/site-packages/tf2-rclpy-example.egg-link (link to .)
+[1.913s] Installing broadcaster script to /home/minipin/ros2-study/robot_dj/install/tf2_rclpy_example/lib/tf2_rclpy_example
+[1.913s] Installing listener script to /home/minipin/ros2-study/robot_dj/install/tf2_rclpy_example/lib/tf2_rclpy_example
+[1.913s] Installing static_broadcaster script to /home/minipin/ros2-study/robot_dj/install/tf2_rclpy_example/lib/tf2_rclpy_example
+[1.913s] 
+[1.914s] Installed /home/minipin/ros2-study/robot_dj/build/tf2_rclpy_example
+[1.914s] running install_data
+[1.914s] creating /home/minipin/ros2-study/robot_dj/install/tf2_rclpy_example/share/ament_index
+[1.914s] creating /home/minipin/ros2-study/robot_dj/install/tf2_rclpy_example/share/ament_index/resource_index
+[1.914s] creating /home/minipin/ros2-study/robot_dj/install/tf2_rclpy_example/share/ament_index/resource_index/packages
+[1.914s] copying resource/tf2_rclpy_example -> /home/minipin/ros2-study/robot_dj/install/tf2_rclpy_example/share/ament_index/resource_index/packages
+[1.915s] copying package.xml -> /home/minipin/ros2-study/robot_dj/install/tf2_rclpy_example/share/tf2_rclpy_example
+[2.033s] Invoked command in '/home/minipin/ros2-study/robot_dj/build/tf2_rclpy_example' returned '0': PYTHONPATH=/home/minipin/ros2-study/robot_dj/build/tf2_rclpy_example/prefix_override:/home/minipin/ros2-study/robot_dj/install/tf2_rclpy_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/minipin/ros2-study/robot_dj/build/tf2_rclpy_example/build --no-deps install_data

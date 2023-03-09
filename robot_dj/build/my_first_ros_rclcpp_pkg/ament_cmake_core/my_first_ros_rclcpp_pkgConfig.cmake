@@ -16,7 +16,7 @@ set(_my_first_ros_rclcpp_pkg_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT my_first_ros_rclcpp_pkg_FIND_QUIETLY)
-  message(STATUS "Found my_first_ros_rclcpp_pkg: 0.0.0 (${my_first_ros_rclcpp_pkg_DIR})")
+  message(STATUS "Found my_first_ros_rclcpp_pkg: 0.6.0 (${my_first_ros_rclcpp_pkg_DIR})")
 endif()
 
 # warn when using a deprecated package

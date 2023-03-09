@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target checker[0m
+[ 11%] Built target gtest_main
+[ 23%] Built target gtest
+[ 35%] Built target argument
+[ 47%] Built target operator
+[ 64%] Built target calculator
+[ 70%] [32mBuilding CXX object CMakeFiles/checker.dir/src/checker/main.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/checker.dir/src/checker/checker.cpp.o[0m
+[ 94%] Built target test_calculator

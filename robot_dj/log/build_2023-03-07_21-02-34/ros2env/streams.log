@@ -1,0 +1,33 @@
+[1.021s] Invoking command in '/home/minipin/ros2-study/robot_dj/build/ros2env': PYTHONPATH=/home/minipin/ros2-study/robot_dj/build/ros2env/prefix_override:/home/minipin/ros2-study/robot_dj/install/ros2env/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/minipin/ros2-study/robot_dj/build/ros2env/build --no-deps install_data
+[1.425s] running develop
+[1.427s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.427s]   warnings.warn(
+[1.427s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.427s]   warnings.warn(
+[1.444s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+[1.444s]   warnings.warn(
+[1.444s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[1.444s]   warnings.warn(
+[1.445s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[1.445s]   warnings.warn(
+[1.590s] running egg_info
+[1.590s] creating ros2env.egg-info
+[1.590s] writing ros2env.egg-info/PKG-INFO
+[1.590s] writing dependency_links to ros2env.egg-info/dependency_links.txt
+[1.590s] writing entry points to ros2env.egg-info/entry_points.txt
+[1.590s] writing requirements to ros2env.egg-info/requires.txt
+[1.591s] writing top-level names to ros2env.egg-info/top_level.txt
+[1.591s] writing manifest file 'ros2env.egg-info/SOURCES.txt'
+[1.591s] reading manifest file 'ros2env.egg-info/SOURCES.txt'
+[1.591s] writing manifest file 'ros2env.egg-info/SOURCES.txt'
+[1.591s] running build_ext
+[1.591s] Creating /home/minipin/ros2-study/robot_dj/install/ros2env/lib/python3.10/site-packages/ros2env.egg-link (link to .)
+[1.591s] 
+[1.591s] Installed /home/minipin/ros2-study/robot_dj/build/ros2env
+[1.591s] running install_data
+[1.591s] creating /home/minipin/ros2-study/robot_dj/install/ros2env/share/ament_index
+[1.591s] creating /home/minipin/ros2-study/robot_dj/install/ros2env/share/ament_index/resource_index
+[1.591s] creating /home/minipin/ros2-study/robot_dj/install/ros2env/share/ament_index/resource_index/packages
+[1.591s] copying resource/ros2env -> /home/minipin/ros2-study/robot_dj/install/ros2env/share/ament_index/resource_index/packages
+[1.592s] copying package.xml -> /home/minipin/ros2-study/robot_dj/install/ros2env/share/ros2env
+[1.701s] Invoked command in '/home/minipin/ros2-study/robot_dj/build/ros2env' returned '0': PYTHONPATH=/home/minipin/ros2-study/robot_dj/build/ros2env/prefix_override:/home/minipin/ros2-study/robot_dj/install/ros2env/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/minipin/ros2-study/robot_dj/build/ros2env/build --no-deps install_data

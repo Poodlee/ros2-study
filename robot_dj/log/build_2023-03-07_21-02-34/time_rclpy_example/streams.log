@@ -1,0 +1,34 @@
+[1.005s] Invoking command in '/home/minipin/ros2-study/robot_dj/build/time_rclpy_example': PYTHONPATH=/home/minipin/ros2-study/robot_dj/build/time_rclpy_example/prefix_override:/home/minipin/ros2-study/robot_dj/install/time_rclpy_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/minipin/ros2-study/robot_dj/build/time_rclpy_example/build --no-deps install_data
+[1.593s] running develop
+[1.594s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.594s]   warnings.warn(
+[1.597s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.598s]   warnings.warn(
+[1.759s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+[1.759s]   warnings.warn(
+[1.759s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[1.759s]   warnings.warn(
+[1.759s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[1.759s]   warnings.warn(
+[1.938s] running egg_info
+[1.938s] creating time_rclpy_example.egg-info
+[1.938s] writing time_rclpy_example.egg-info/PKG-INFO
+[1.938s] writing dependency_links to time_rclpy_example.egg-info/dependency_links.txt
+[1.938s] writing entry points to time_rclpy_example.egg-info/entry_points.txt
+[1.938s] writing requirements to time_rclpy_example.egg-info/requires.txt
+[1.938s] writing top-level names to time_rclpy_example.egg-info/top_level.txt
+[1.939s] writing manifest file 'time_rclpy_example.egg-info/SOURCES.txt'
+[1.944s] reading manifest file 'time_rclpy_example.egg-info/SOURCES.txt'
+[1.953s] writing manifest file 'time_rclpy_example.egg-info/SOURCES.txt'
+[1.956s] running build_ext
+[1.957s] Creating /home/minipin/ros2-study/robot_dj/install/time_rclpy_example/lib/python3.10/site-packages/time-rclpy-example.egg-link (link to .)
+[1.959s] Installing time_example script to /home/minipin/ros2-study/robot_dj/install/time_rclpy_example/lib/time_rclpy_example
+[1.959s] 
+[1.959s] Installed /home/minipin/ros2-study/robot_dj/build/time_rclpy_example
+[1.960s] running install_data
+[1.960s] creating /home/minipin/ros2-study/robot_dj/install/time_rclpy_example/share/ament_index
+[1.960s] creating /home/minipin/ros2-study/robot_dj/install/time_rclpy_example/share/ament_index/resource_index
+[1.961s] creating /home/minipin/ros2-study/robot_dj/install/time_rclpy_example/share/ament_index/resource_index/packages
+[1.961s] copying resource/time_rclpy_example -> /home/minipin/ros2-study/robot_dj/install/time_rclpy_example/share/ament_index/resource_index/packages
+[1.961s] copying package.xml -> /home/minipin/ros2-study/robot_dj/install/time_rclpy_example/share/time_rclpy_example
+[2.001s] Invoked command in '/home/minipin/ros2-study/robot_dj/build/time_rclpy_example' returned '0': PYTHONPATH=/home/minipin/ros2-study/robot_dj/build/time_rclpy_example/prefix_override:/home/minipin/ros2-study/robot_dj/install/time_rclpy_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/minipin/ros2-study/robot_dj/build/time_rclpy_example/build --no-deps install_data

@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target checker[0m
+[ 11%] Built target gtest_main
+[ 23%] Built target gtest
+[ 35%] Built target argument
+[ 47%] Built target operator
+[ 64%] Built target calculator
+[ 70%] [32mBuilding CXX object CMakeFiles/checker.dir/src/checker/main.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/checker.dir/src/checker/checker.cpp.o[0m
+[ 94%] Built target test_calculator
+In file included from [01m[K/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/topic_service_action_rclcpp_example/src/checker/checker.cpp:18[m[K:
+[01m[K/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/topic_service_action_rclcpp_example/include/checker/checker.hpp:44:63:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   44 |     const GoalHandleArithmeticChecker::SharedPtr & goal_handle[01;31m[K)[m[K
+      |                                                               [01;31m[K^[m[K
+      |                                                                [32m[K;[m[K
+In file included from [01m[K/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/topic_service_action_rclcpp_example/src/checker/main.cpp:23[m[K:
+[01m[K/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/topic_service_action_rclcpp_example/include/checker/checker.hpp:44:63:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   44 |     const GoalHandleArithmeticChecker::SharedPtr & goal_handle[01;31m[K)[m[K
+      |                                                               [01;31m[K^[m[K
+      |                                                                [32m[K;[m[K
+gmake[2]: *** [CMakeFiles/checker.dir/build.make:76: CMakeFiles/checker.dir/src/checker/main.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/checker.dir/build.make:90: CMakeFiles/checker.dir/src/checker/checker.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:230: CMakeFiles/checker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

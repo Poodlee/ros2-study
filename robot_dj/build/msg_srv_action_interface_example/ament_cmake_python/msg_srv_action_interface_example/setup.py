@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='msg_srv_action_interface_example',
-    version='0.2.0',
+    version='0.6.0',
     packages=find_packages(
         include=('msg_srv_action_interface_example', 'msg_srv_action_interface_example.*')),
 )

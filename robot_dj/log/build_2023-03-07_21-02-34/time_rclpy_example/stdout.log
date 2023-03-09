@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating time_rclpy_example.egg-info
+writing time_rclpy_example.egg-info/PKG-INFO
+writing dependency_links to time_rclpy_example.egg-info/dependency_links.txt
+writing entry points to time_rclpy_example.egg-info/entry_points.txt
+writing requirements to time_rclpy_example.egg-info/requires.txt
+writing top-level names to time_rclpy_example.egg-info/top_level.txt
+writing manifest file 'time_rclpy_example.egg-info/SOURCES.txt'
+reading manifest file 'time_rclpy_example.egg-info/SOURCES.txt'
+writing manifest file 'time_rclpy_example.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/minipin/ros2-study/robot_dj/install/time_rclpy_example/lib/python3.10/site-packages/time-rclpy-example.egg-link (link to .)
+Installing time_example script to /home/minipin/ros2-study/robot_dj/install/time_rclpy_example/lib/time_rclpy_example
+
+Installed /home/minipin/ros2-study/robot_dj/build/time_rclpy_example
+running install_data
+creating /home/minipin/ros2-study/robot_dj/install/time_rclpy_example/share/ament_index
+creating /home/minipin/ros2-study/robot_dj/install/time_rclpy_example/share/ament_index/resource_index
+creating /home/minipin/ros2-study/robot_dj/install/time_rclpy_example/share/ament_index/resource_index/packages
+copying resource/time_rclpy_example -> /home/minipin/ros2-study/robot_dj/install/time_rclpy_example/share/ament_index/resource_index/packages
+copying package.xml -> /home/minipin/ros2-study/robot_dj/install/time_rclpy_example/share/time_rclpy_example

@@ -1,8 +1,8 @@
 {
   "package_name": "msg_srv_action_interface_example",
   "non_idl_tuples": [
-    "/home/minipin/ros2-study/robot_dj/src/msg_srv_action_interface_example:msg/ArithmeticArgument.msg",
-    "/home/minipin/ros2-study/robot_dj/src/msg_srv_action_interface_example:srv/ArithmeticOperator.srv",
-    "/home/minipin/ros2-study/robot_dj/src/msg_srv_action_interface_example:action/ArithmeticChecker.action"
+    "/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/msg_srv_action_interface_example:msg/ArithmeticArgument.msg",
+    "/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/msg_srv_action_interface_example:srv/ArithmeticOperator.srv",
+    "/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/msg_srv_action_interface_example:action/ArithmeticChecker.action"
   ]
 }

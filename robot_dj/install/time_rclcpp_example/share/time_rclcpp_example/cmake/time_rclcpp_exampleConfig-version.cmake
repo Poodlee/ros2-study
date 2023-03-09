@@ -1,1 +1,0 @@
-/home/minipin/ros2-study/robot_dj/build/time_rclcpp_example/ament_cmake_core/time_rclcpp_exampleConfig-version.cmake

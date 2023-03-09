@@ -16,7 +16,7 @@ set(_msg_srv_action_interface_example_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT msg_srv_action_interface_example_FIND_QUIETLY)
-  message(STATUS "Found msg_srv_action_interface_example: 0.2.0 (${msg_srv_action_interface_example_DIR})")
+  message(STATUS "Found msg_srv_action_interface_example: 0.6.0 (${msg_srv_action_interface_example_DIR})")
 endif()
 
 # warn when using a deprecated package

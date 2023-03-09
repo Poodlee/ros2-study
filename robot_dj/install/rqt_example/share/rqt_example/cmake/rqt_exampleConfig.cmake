@@ -1,0 +1,1 @@
+/home/minipin/ros2-study/robot_dj/build/rqt_example/ament_cmake_core/rqt_exampleConfig.cmake

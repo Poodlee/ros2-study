@@ -57,7 +57,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/minipin/ros2-study/robot_dj/src/my_first_ros_rclcpp_pkg
+CMAKE_SOURCE_DIR = /home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/my_first_ros_rclcpp_pkg
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg
@@ -198,78 +198,78 @@ my_first_ros_rclcpp_pkg_uninstall/fast:
 .PHONY : my_first_ros_rclcpp_pkg_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named hellodongjun_publisher
+# Target rules for targets named helloworld_publisher
 
 # Build rule for target.
-hellodongjun_publisher: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hellodongjun_publisher
-.PHONY : hellodongjun_publisher
+helloworld_publisher: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 helloworld_publisher
+.PHONY : helloworld_publisher
 
 # fast build rule for target.
-hellodongjun_publisher/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hellodongjun_publisher.dir/build.make CMakeFiles/hellodongjun_publisher.dir/build
-.PHONY : hellodongjun_publisher/fast
+helloworld_publisher/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld_publisher.dir/build.make CMakeFiles/helloworld_publisher.dir/build
+.PHONY : helloworld_publisher/fast
 
 #=============================================================================
-# Target rules for targets named hellodongjun_subscriber
+# Target rules for targets named helloworld_subscriber
 
 # Build rule for target.
-hellodongjun_subscriber: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hellodongjun_subscriber
-.PHONY : hellodongjun_subscriber
+helloworld_subscriber: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 helloworld_subscriber
+.PHONY : helloworld_subscriber
 
 # fast build rule for target.
-hellodongjun_subscriber/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hellodongjun_subscriber.dir/build.make CMakeFiles/hellodongjun_subscriber.dir/build
-.PHONY : hellodongjun_subscriber/fast
+helloworld_subscriber/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld_subscriber.dir/build.make CMakeFiles/helloworld_subscriber.dir/build
+.PHONY : helloworld_subscriber/fast
 
-src/hellodongjun_publisher.o: src/hellodongjun_publisher.cpp.o
-.PHONY : src/hellodongjun_publisher.o
-
-# target to build an object file
-src/hellodongjun_publisher.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hellodongjun_publisher.dir/build.make CMakeFiles/hellodongjun_publisher.dir/src/hellodongjun_publisher.cpp.o
-.PHONY : src/hellodongjun_publisher.cpp.o
-
-src/hellodongjun_publisher.i: src/hellodongjun_publisher.cpp.i
-.PHONY : src/hellodongjun_publisher.i
-
-# target to preprocess a source file
-src/hellodongjun_publisher.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hellodongjun_publisher.dir/build.make CMakeFiles/hellodongjun_publisher.dir/src/hellodongjun_publisher.cpp.i
-.PHONY : src/hellodongjun_publisher.cpp.i
-
-src/hellodongjun_publisher.s: src/hellodongjun_publisher.cpp.s
-.PHONY : src/hellodongjun_publisher.s
-
-# target to generate assembly for a file
-src/hellodongjun_publisher.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hellodongjun_publisher.dir/build.make CMakeFiles/hellodongjun_publisher.dir/src/hellodongjun_publisher.cpp.s
-.PHONY : src/hellodongjun_publisher.cpp.s
-
-src/hellodongjun_subscriber.o: src/hellodongjun_subscriber.cpp.o
-.PHONY : src/hellodongjun_subscriber.o
+src/helloworld_publisher.o: src/helloworld_publisher.cpp.o
+.PHONY : src/helloworld_publisher.o
 
 # target to build an object file
-src/hellodongjun_subscriber.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hellodongjun_subscriber.dir/build.make CMakeFiles/hellodongjun_subscriber.dir/src/hellodongjun_subscriber.cpp.o
-.PHONY : src/hellodongjun_subscriber.cpp.o
+src/helloworld_publisher.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld_publisher.dir/build.make CMakeFiles/helloworld_publisher.dir/src/helloworld_publisher.cpp.o
+.PHONY : src/helloworld_publisher.cpp.o
 
-src/hellodongjun_subscriber.i: src/hellodongjun_subscriber.cpp.i
-.PHONY : src/hellodongjun_subscriber.i
+src/helloworld_publisher.i: src/helloworld_publisher.cpp.i
+.PHONY : src/helloworld_publisher.i
 
 # target to preprocess a source file
-src/hellodongjun_subscriber.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hellodongjun_subscriber.dir/build.make CMakeFiles/hellodongjun_subscriber.dir/src/hellodongjun_subscriber.cpp.i
-.PHONY : src/hellodongjun_subscriber.cpp.i
+src/helloworld_publisher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld_publisher.dir/build.make CMakeFiles/helloworld_publisher.dir/src/helloworld_publisher.cpp.i
+.PHONY : src/helloworld_publisher.cpp.i
 
-src/hellodongjun_subscriber.s: src/hellodongjun_subscriber.cpp.s
-.PHONY : src/hellodongjun_subscriber.s
+src/helloworld_publisher.s: src/helloworld_publisher.cpp.s
+.PHONY : src/helloworld_publisher.s
 
 # target to generate assembly for a file
-src/hellodongjun_subscriber.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hellodongjun_subscriber.dir/build.make CMakeFiles/hellodongjun_subscriber.dir/src/hellodongjun_subscriber.cpp.s
-.PHONY : src/hellodongjun_subscriber.cpp.s
+src/helloworld_publisher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld_publisher.dir/build.make CMakeFiles/helloworld_publisher.dir/src/helloworld_publisher.cpp.s
+.PHONY : src/helloworld_publisher.cpp.s
+
+src/helloworld_subscriber.o: src/helloworld_subscriber.cpp.o
+.PHONY : src/helloworld_subscriber.o
+
+# target to build an object file
+src/helloworld_subscriber.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld_subscriber.dir/build.make CMakeFiles/helloworld_subscriber.dir/src/helloworld_subscriber.cpp.o
+.PHONY : src/helloworld_subscriber.cpp.o
+
+src/helloworld_subscriber.i: src/helloworld_subscriber.cpp.i
+.PHONY : src/helloworld_subscriber.i
+
+# target to preprocess a source file
+src/helloworld_subscriber.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld_subscriber.dir/build.make CMakeFiles/helloworld_subscriber.dir/src/helloworld_subscriber.cpp.i
+.PHONY : src/helloworld_subscriber.cpp.i
+
+src/helloworld_subscriber.s: src/helloworld_subscriber.cpp.s
+.PHONY : src/helloworld_subscriber.s
+
+# target to generate assembly for a file
+src/helloworld_subscriber.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld_subscriber.dir/build.make CMakeFiles/helloworld_subscriber.dir/src/helloworld_subscriber.cpp.s
+.PHONY : src/helloworld_subscriber.cpp.s
 
 # Help Target
 help:
@@ -286,14 +286,14 @@ help:
 	@echo "... test"
 	@echo "... my_first_ros_rclcpp_pkg_uninstall"
 	@echo "... uninstall"
-	@echo "... hellodongjun_publisher"
-	@echo "... hellodongjun_subscriber"
-	@echo "... src/hellodongjun_publisher.o"
-	@echo "... src/hellodongjun_publisher.i"
-	@echo "... src/hellodongjun_publisher.s"
-	@echo "... src/hellodongjun_subscriber.o"
-	@echo "... src/hellodongjun_subscriber.i"
-	@echo "... src/hellodongjun_subscriber.s"
+	@echo "... helloworld_publisher"
+	@echo "... helloworld_subscriber"
+	@echo "... src/helloworld_publisher.o"
+	@echo "... src/helloworld_publisher.i"
+	@echo "... src/helloworld_publisher.s"
+	@echo "... src/helloworld_subscriber.o"
+	@echo "... src/helloworld_subscriber.i"
+	@echo "... src/helloworld_subscriber.s"
 .PHONY : help
 
 

@@ -1,0 +1,34 @@
+[1.048s] Invoking command in '/home/minipin/ros2-study/robot_dj/build/logging_rclpy_example': PYTHONPATH=/home/minipin/ros2-study/robot_dj/build/logging_rclpy_example/prefix_override:/home/minipin/ros2-study/robot_dj/install/logging_rclpy_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/minipin/ros2-study/robot_dj/build/logging_rclpy_example/build --no-deps install_data
+[1.523s] running develop
+[1.527s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.527s]   warnings.warn(
+[1.527s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.528s]   warnings.warn(
+[1.528s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+[1.528s]   warnings.warn(
+[1.528s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[1.528s]   warnings.warn(
+[1.528s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[1.528s]   warnings.warn(
+[1.570s] running egg_info
+[1.570s] creating logging_rclpy_example.egg-info
+[1.570s] writing logging_rclpy_example.egg-info/PKG-INFO
+[1.571s] writing dependency_links to logging_rclpy_example.egg-info/dependency_links.txt
+[1.571s] writing entry points to logging_rclpy_example.egg-info/entry_points.txt
+[1.571s] writing requirements to logging_rclpy_example.egg-info/requires.txt
+[1.571s] writing top-level names to logging_rclpy_example.egg-info/top_level.txt
+[1.571s] writing manifest file 'logging_rclpy_example.egg-info/SOURCES.txt'
+[1.573s] reading manifest file 'logging_rclpy_example.egg-info/SOURCES.txt'
+[1.574s] writing manifest file 'logging_rclpy_example.egg-info/SOURCES.txt'
+[1.576s] running build_ext
+[1.576s] Creating /home/minipin/ros2-study/robot_dj/install/logging_rclpy_example/lib/python3.10/site-packages/logging-rclpy-example.egg-link (link to .)
+[1.577s] Installing logging_example script to /home/minipin/ros2-study/robot_dj/install/logging_rclpy_example/lib/logging_rclpy_example
+[1.577s] 
+[1.577s] Installed /home/minipin/ros2-study/robot_dj/build/logging_rclpy_example
+[1.577s] running install_data
+[1.577s] creating /home/minipin/ros2-study/robot_dj/install/logging_rclpy_example/share/ament_index
+[1.578s] creating /home/minipin/ros2-study/robot_dj/install/logging_rclpy_example/share/ament_index/resource_index
+[1.578s] creating /home/minipin/ros2-study/robot_dj/install/logging_rclpy_example/share/ament_index/resource_index/packages
+[1.578s] copying resource/logging_rclpy_example -> /home/minipin/ros2-study/robot_dj/install/logging_rclpy_example/share/ament_index/resource_index/packages
+[1.578s] copying package.xml -> /home/minipin/ros2-study/robot_dj/install/logging_rclpy_example/share/logging_rclpy_example
+[1.668s] Invoked command in '/home/minipin/ros2-study/robot_dj/build/logging_rclpy_example' returned '0': PYTHONPATH=/home/minipin/ros2-study/robot_dj/build/logging_rclpy_example/prefix_override:/home/minipin/ros2-study/robot_dj/install/logging_rclpy_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/minipin/ros2-study/robot_dj/build/logging_rclpy_example/build --no-deps install_data

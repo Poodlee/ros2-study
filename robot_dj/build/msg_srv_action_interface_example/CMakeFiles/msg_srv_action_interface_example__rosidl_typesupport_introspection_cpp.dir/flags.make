@@ -6,5 +6,5 @@ CXX_DEFINES = -DRCUTILS_ENABLE_FAULT_INJECTION -DROSIDL_TYPESUPPORT_INTROSPECTIO
 
 CXX_INCLUDES = -I/home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example/rosidl_typesupport_introspection_cpp -I/home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example/rosidl_generator_cpp -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_cpp -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/action_msgs -isystem /opt/ros/humble/include/unique_identifier_msgs -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c
 
-CXX_FLAGS =  -Wall -Wextra -Wpedantic -g -fPIC -Wall
+CXX_FLAGS =  -Wall -Wextra -Wpedantic -fPIC -Wall
 

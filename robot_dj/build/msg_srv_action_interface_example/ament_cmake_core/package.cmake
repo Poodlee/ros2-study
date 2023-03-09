@@ -1,5 +1,5 @@
 set(_AMENT_PACKAGE_NAME "msg_srv_action_interface_example")
-set(msg_srv_action_interface_example_VERSION "0.2.0")
+set(msg_srv_action_interface_example_VERSION "0.6.0")
 set(msg_srv_action_interface_example_MAINTAINER "Pyo <passionvirus@gmail.com>")
 set(msg_srv_action_interface_example_BUILD_DEPENDS )
 set(msg_srv_action_interface_example_BUILDTOOL_DEPENDS "ament_cmake" "rosidl_default_generators")

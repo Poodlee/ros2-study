@@ -1,0 +1,39 @@
+In file included from [01m[K/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/tf2_rclcpp_example/include/listener.hpp:25[m[K,
+                 from [01m[K/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/tf2_rclcpp_example/src/listener.cpp:17[m[K:
+[01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/tf2_rclcpp_example/src/listener.cpp:17[m[K:
+[01m[K/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/tf2_rclcpp_example/include/listener.hpp:40:12:[m[K [01;31m[Kerror: [m[K‘[01m[KBuffer[m[K’ in namespace ‘[01m[Ktf2_ros[m[K’ does not name a type
+   40 |   tf2_ros::[01;31m[KBuffer[m[K tf_buffer_;
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/tf2_rclcpp_example/src/listener.cpp:[m[K In constructor ‘[01m[KListener::Listener()[m[K’:
+[01m[K/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/tf2_rclcpp_example/src/listener.cpp:23:3:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KListener[m[K’ does not have any field named ‘[01m[Ktf_buffer_[m[K’
+   23 |   [01;31m[Ktf_buffer_[m[K(this->get_clock()),
+      |   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/tf2_rclcpp_example/src/listener.cpp:24:16:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_buffer_[m[K’ was not declared in this scope
+   24 |   tf_listener_([01;31m[Ktf_buffer_[m[K)
+      |                [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/tf2_rclcpp_example/src/listener.cpp:[m[K In lambda function:
+[01m[K/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/tf2_rclcpp_example/src/listener.cpp:33:24:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_buffer_[m[K’ is not captured
+   33 |         tf_world_pan = [01;31m[Ktf_buffer_[m[K.lookupTransform("pan", "world", tf2::timeFromSec(0));
+      |                        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/tf2_rclcpp_example/src/listener.cpp:27:10:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   27 |     [this[01;36m[K][m[K() -> void
+      |          [01;36m[K^[m[K
+[01m[K/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/tf2_rclcpp_example/src/listener.cpp:24:16:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>tf_buffer_[m[K’ declared here
+   24 |   tf_listener_([01;36m[Ktf_buffer_[m[K)
+      |                [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/tf2_rclcpp_example/src/listener.cpp:55:24:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_buffer_[m[K’ is not captured
+   55 |         tf_pan_world = [01;31m[Ktf_buffer_[m[K.lookupTransform("world", "pan", tf2::timeFromSec(0));
+      |                        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/tf2_rclcpp_example/src/listener.cpp:27:10:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   27 |     [this[01;36m[K][m[K() -> void
+      |          [01;36m[K^[m[K
+[01m[K/home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/tf2_rclcpp_example/src/listener.cpp:24:16:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>tf_buffer_[m[K’ declared here
+   24 |   tf_listener_([01;36m[Ktf_buffer_[m[K)
+      |                [01;36m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/listener.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/listener.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

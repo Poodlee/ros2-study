@@ -1,4 +1,4 @@
-# Install script for directory: /home/minipin/ros2-study/robot_dj/src/msg_srv_action_interface_example
+# Install script for directory: /home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/msg_srv_action_interface_example
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -252,8 +252,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     endif()
   endif()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/msg_srv_action_interface_example/cmake" TYPE FILE FILES "/home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example/CMakeFiles/Export/share/msg_srv_action_interface_example/cmake/export_msg_srv_action_interface_example__rosidl_generator_cExport.cmake")
-  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/msg_srv_action_interface_example/cmake" TYPE FILE FILES "/home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example/CMakeFiles/Export/share/msg_srv_action_interface_example/cmake/export_msg_srv_action_interface_example__rosidl_generator_cExport-debug.cmake")
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/msg_srv_action_interface_example/cmake" TYPE FILE FILES "/home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example/CMakeFiles/Export/share/msg_srv_action_interface_example/cmake/export_msg_srv_action_interface_example__rosidl_generator_cExport-noconfig.cmake")
   endif()
 endif()
 
@@ -271,8 +271,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     endif()
   endif()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/msg_srv_action_interface_example/cmake" TYPE FILE FILES "/home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example/CMakeFiles/Export/share/msg_srv_action_interface_example/cmake/export_msg_srv_action_interface_example__rosidl_typesupport_fastrtps_cExport.cmake")
-  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/msg_srv_action_interface_example/cmake" TYPE FILE FILES "/home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example/CMakeFiles/Export/share/msg_srv_action_interface_example/cmake/export_msg_srv_action_interface_example__rosidl_typesupport_fastrtps_cExport-debug.cmake")
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/msg_srv_action_interface_example/cmake" TYPE FILE FILES "/home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example/CMakeFiles/Export/share/msg_srv_action_interface_example/cmake/export_msg_srv_action_interface_example__rosidl_typesupport_fastrtps_cExport-noconfig.cmake")
   endif()
 endif()
 
@@ -306,8 +306,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     endif()
   endif()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/msg_srv_action_interface_example/cmake" TYPE FILE FILES "/home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example/CMakeFiles/Export/share/msg_srv_action_interface_example/cmake/export_msg_srv_action_interface_example__rosidl_typesupport_fastrtps_cppExport.cmake")
-  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/msg_srv_action_interface_example/cmake" TYPE FILE FILES "/home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example/CMakeFiles/Export/share/msg_srv_action_interface_example/cmake/export_msg_srv_action_interface_example__rosidl_typesupport_fastrtps_cppExport-debug.cmake")
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/msg_srv_action_interface_example/cmake" TYPE FILE FILES "/home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example/CMakeFiles/Export/share/msg_srv_action_interface_example/cmake/export_msg_srv_action_interface_example__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake")
   endif()
 endif()
 
@@ -325,8 +325,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     endif()
   endif()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/msg_srv_action_interface_example/cmake" TYPE FILE FILES "/home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example/CMakeFiles/Export/share/msg_srv_action_interface_example/cmake/msg_srv_action_interface_example__rosidl_typesupport_introspection_cExport.cmake")
-  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/msg_srv_action_interface_example/cmake" TYPE FILE FILES "/home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example/CMakeFiles/Export/share/msg_srv_action_interface_example/cmake/msg_srv_action_interface_example__rosidl_typesupport_introspection_cExport-debug.cmake")
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/msg_srv_action_interface_example/cmake" TYPE FILE FILES "/home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example/CMakeFiles/Export/share/msg_srv_action_interface_example/cmake/msg_srv_action_interface_example__rosidl_typesupport_introspection_cExport-noconfig.cmake")
   endif()
 endif()
 
@@ -344,8 +344,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     endif()
   endif()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/msg_srv_action_interface_example/cmake" TYPE FILE FILES "/home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example/CMakeFiles/Export/share/msg_srv_action_interface_example/cmake/msg_srv_action_interface_example__rosidl_typesupport_cExport.cmake")
-  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/msg_srv_action_interface_example/cmake" TYPE FILE FILES "/home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example/CMakeFiles/Export/share/msg_srv_action_interface_example/cmake/msg_srv_action_interface_example__rosidl_typesupport_cExport-debug.cmake")
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/msg_srv_action_interface_example/cmake" TYPE FILE FILES "/home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example/CMakeFiles/Export/share/msg_srv_action_interface_example/cmake/msg_srv_action_interface_example__rosidl_typesupport_cExport-noconfig.cmake")
   endif()
 endif()
 
@@ -363,8 +363,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     endif()
   endif()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/msg_srv_action_interface_example/cmake" TYPE FILE FILES "/home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example/CMakeFiles/Export/share/msg_srv_action_interface_example/cmake/msg_srv_action_interface_example__rosidl_typesupport_introspection_cppExport.cmake")
-  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/msg_srv_action_interface_example/cmake" TYPE FILE FILES "/home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example/CMakeFiles/Export/share/msg_srv_action_interface_example/cmake/msg_srv_action_interface_example__rosidl_typesupport_introspection_cppExport-debug.cmake")
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/msg_srv_action_interface_example/cmake" TYPE FILE FILES "/home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example/CMakeFiles/Export/share/msg_srv_action_interface_example/cmake/msg_srv_action_interface_example__rosidl_typesupport_introspection_cppExport-noconfig.cmake")
   endif()
 endif()
 
@@ -382,8 +382,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     endif()
   endif()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/msg_srv_action_interface_example/cmake" TYPE FILE FILES "/home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example/CMakeFiles/Export/share/msg_srv_action_interface_example/cmake/msg_srv_action_interface_example__rosidl_typesupport_cppExport.cmake")
-  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/msg_srv_action_interface_example/cmake" TYPE FILE FILES "/home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example/CMakeFiles/Export/share/msg_srv_action_interface_example/cmake/msg_srv_action_interface_example__rosidl_typesupport_cppExport-debug.cmake")
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/msg_srv_action_interface_example/cmake" TYPE FILE FILES "/home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example/CMakeFiles/Export/share/msg_srv_action_interface_example/cmake/msg_srv_action_interface_example__rosidl_typesupport_cppExport-noconfig.cmake")
   endif()
 endif()
 
@@ -401,8 +401,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     endif()
   endif()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/msg_srv_action_interface_example/cmake" TYPE FILE FILES "/home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example/CMakeFiles/Export/share/msg_srv_action_interface_example/cmake/export_msg_srv_action_interface_example__rosidl_generator_pyExport.cmake")
-  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/msg_srv_action_interface_example/cmake" TYPE FILE FILES "/home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example/CMakeFiles/Export/share/msg_srv_action_interface_example/cmake/export_msg_srv_action_interface_example__rosidl_generator_pyExport-debug.cmake")
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/msg_srv_action_interface_example/cmake" TYPE FILE FILES "/home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example/CMakeFiles/Export/share/msg_srv_action_interface_example/cmake/export_msg_srv_action_interface_example__rosidl_generator_pyExport-noconfig.cmake")
   endif()
 endif()
 

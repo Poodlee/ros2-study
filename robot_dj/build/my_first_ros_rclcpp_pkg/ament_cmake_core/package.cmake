@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "my_first_ros_rclcpp_pkg")
-set(my_first_ros_rclcpp_pkg_VERSION "0.0.0")
-set(my_first_ros_rclcpp_pkg_MAINTAINER "minipin <ppp6131@yonsei.ac.kr>")
+set(my_first_ros_rclcpp_pkg_VERSION "0.6.0")
+set(my_first_ros_rclcpp_pkg_MAINTAINER "Pyo <passionvirus@gmail.com>")
 set(my_first_ros_rclcpp_pkg_BUILD_DEPENDS "rclcpp" "std_msgs")
 set(my_first_ros_rclcpp_pkg_BUILDTOOL_DEPENDS "ament_cmake")
 set(my_first_ros_rclcpp_pkg_BUILD_EXPORT_DEPENDS "rclcpp" "std_msgs")

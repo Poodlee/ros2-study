@@ -1,0 +1,257 @@
+[0.058s] Invoking command in '/home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/msg_srv_action_interface_example -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example
+[0.610s] -- The C compiler identification is GNU 11.3.0
+[0.610s] -- The CXX compiler identification is GNU 11.3.0
+[0.610s] -- Detecting C compiler ABI info
+[0.610s] -- Detecting C compiler ABI info - done
+[0.610s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.610s] -- Detecting C compile features
+[0.610s] -- Detecting C compile features - done
+[0.610s] -- Detecting CXX compiler ABI info
+[0.610s] -- Detecting CXX compiler ABI info - done
+[0.611s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.611s] -- Detecting CXX compile features
+[0.611s] -- Detecting CXX compile features - done
+[0.611s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.611s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.611s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.611s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.612s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.612s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.612s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.612s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.612s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.612s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.791s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.158s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.324s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.355s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[1.357s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.385s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[1.386s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.386s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.387s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.416s] -- Found PythonExtra: .so  
+[1.466s] -- Configuring done
+[1.520s] -- Generating done
+[1.523s] -- Build files have been written to: /home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example
+[1.536s] Invoked command in '/home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/msg_srv_action_interface_example -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example
+[1.536s] Invoking command in '/home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example -- -j8 -l8
+[1.651s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.654s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.676s] [  4%] Built target ament_cmake_python_symlink_msg_srv_action_interface_example
+[1.944s] running egg_info
+[1.945s] creating msg_srv_action_interface_example.egg-info
+[1.946s] writing msg_srv_action_interface_example.egg-info/PKG-INFO
+[1.946s] writing dependency_links to msg_srv_action_interface_example.egg-info/dependency_links.txt
+[1.947s] writing top-level names to msg_srv_action_interface_example.egg-info/top_level.txt
+[1.948s] writing manifest file 'msg_srv_action_interface_example.egg-info/SOURCES.txt'
+[1.948s] reading manifest file 'msg_srv_action_interface_example.egg-info/SOURCES.txt'
+[1.949s] writing manifest file 'msg_srv_action_interface_example.egg-info/SOURCES.txt'
+[1.970s] [  4%] Built target ament_cmake_python_build_msg_srv_action_interface_example_egg
+[2.692s] [  6%] [32mBuilding C object CMakeFiles/msg_srv_action_interface_example__rosidl_generator_c.dir/rosidl_generator_c/msg_srv_action_interface_example/msg/detail/arithmetic_argument__functions.c.o[0m
+[2.693s] [  6%] Built target msg_srv_action_interface_example__cpp
+[2.710s] [  8%] [32mBuilding C object CMakeFiles/msg_srv_action_interface_example__rosidl_generator_c.dir/rosidl_generator_c/msg_srv_action_interface_example/srv/detail/arithmetic_operator__functions.c.o[0m
+[2.728s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.742s] [ 12%] [32mBuilding C object CMakeFiles/msg_srv_action_interface_example__rosidl_generator_c.dir/rosidl_generator_c/msg_srv_action_interface_example/action/detail/arithmetic_checker__functions.c.o[0m
+[2.747s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.797s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.128s] [ 19%] [32m[1mLinking C shared library libmsg_srv_action_interface_example__rosidl_generator_c.so[0m
+[3.267s] [ 19%] Built target msg_srv_action_interface_example__rosidl_generator_c
+[3.292s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.300s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.364s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.551s] [ 27%] [32mBuilding CXX object CMakeFiles/msg_srv_action_interface_example__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_srv_action_interface_example/msg/arithmetic_argument__type_support.cpp.o[0m
+[3.563s] [ 29%] [32mBuilding CXX object CMakeFiles/msg_srv_action_interface_example__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_srv_action_interface_example/action/arithmetic_checker__type_support.cpp.o[0m
+[3.567s] [ 31%] [32mBuilding CXX object CMakeFiles/msg_srv_action_interface_example__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_srv_action_interface_example/srv/arithmetic_operator__type_support.cpp.o[0m
+[4.202s] [ 34%] [32mBuilding CXX object CMakeFiles/msg_srv_action_interface_example__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_srv_action_interface_example/msg/detail/arithmetic_argument__type_support.cpp.o[0m
+[4.239s] [ 36%] [32mBuilding CXX object CMakeFiles/msg_srv_action_interface_example__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_srv_action_interface_example/srv/detail/arithmetic_operator__type_support.cpp.o[0m
+[4.385s] [ 38%] [32mBuilding CXX object CMakeFiles/msg_srv_action_interface_example__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_srv_action_interface_example/msg/arithmetic_argument__type_support.cpp.o[0m
+[4.437s] [ 40%] [32mBuilding CXX object CMakeFiles/msg_srv_action_interface_example__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_srv_action_interface_example/action/detail/arithmetic_checker__type_support.cpp.o[0m
+[4.448s] [ 42%] [32m[1mLinking CXX shared library libmsg_srv_action_interface_example__rosidl_typesupport_cpp.so[0m
+[4.500s] [ 44%] [32mBuilding CXX object CMakeFiles/msg_srv_action_interface_example__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_srv_action_interface_example/srv/arithmetic_operator__type_support.cpp.o[0m
+[4.526s] [ 44%] Built target msg_srv_action_interface_example__rosidl_typesupport_cpp
+[4.567s] [ 46%] [32mBuilding CXX object CMakeFiles/msg_srv_action_interface_example__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_srv_action_interface_example/action/arithmetic_checker__type_support.cpp.o[0m
+[4.676s] [ 48%] [32mBuilding CXX object CMakeFiles/msg_srv_action_interface_example__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_srv_action_interface_example/srv/detail/dds_fastrtps/arithmetic_operator__type_support.cpp.o[0m
+[4.676s] [ 51%] [32mBuilding CXX object CMakeFiles/msg_srv_action_interface_example__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_srv_action_interface_example/msg/detail/dds_fastrtps/arithmetic_argument__type_support.cpp.o[0m
+[4.738s] [ 53%] [32m[1mLinking CXX shared library libmsg_srv_action_interface_example__rosidl_typesupport_c.so[0m
+[4.883s] [ 53%] Built target msg_srv_action_interface_example__rosidl_typesupport_c
+[4.913s] [ 55%] [32mBuilding CXX object CMakeFiles/msg_srv_action_interface_example__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_srv_action_interface_example/action/detail/dds_fastrtps/arithmetic_checker__type_support.cpp.o[0m
+[4.997s] [ 57%] [32mBuilding CXX object CMakeFiles/msg_srv_action_interface_example__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_srv_action_interface_example/msg/detail/arithmetic_argument__type_support_c.cpp.o[0m
+[5.007s] [ 59%] [32mBuilding CXX object CMakeFiles/msg_srv_action_interface_example__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_srv_action_interface_example/srv/detail/arithmetic_operator__type_support_c.cpp.o[0m
+[5.096s] [ 61%] [32mBuilding CXX object CMakeFiles/msg_srv_action_interface_example__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_srv_action_interface_example/action/detail/arithmetic_checker__type_support_c.cpp.o[0m
+[5.113s] [ 63%] [32mBuilding C object CMakeFiles/msg_srv_action_interface_example__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_srv_action_interface_example/msg/detail/arithmetic_argument__type_support.c.o[0m
+[5.310s] [ 65%] [32mBuilding C object CMakeFiles/msg_srv_action_interface_example__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_srv_action_interface_example/srv/detail/arithmetic_operator__type_support.c.o[0m
+[5.337s] [ 68%] [32mBuilding C object CMakeFiles/msg_srv_action_interface_example__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_srv_action_interface_example/action/detail/arithmetic_checker__type_support.c.o[0m
+[5.528s] [ 70%] [32m[1mLinking C shared library libmsg_srv_action_interface_example__rosidl_typesupport_introspection_c.so[0m
+[5.547s] [ 72%] [32m[1mLinking CXX shared library libmsg_srv_action_interface_example__rosidl_typesupport_introspection_cpp.so[0m
+[5.573s] [ 72%] Built target msg_srv_action_interface_example__rosidl_typesupport_introspection_c
+[5.670s] [ 72%] Built target msg_srv_action_interface_example__rosidl_typesupport_introspection_cpp
+[5.864s] [ 74%] [32m[1mLinking CXX shared library libmsg_srv_action_interface_example__rosidl_typesupport_fastrtps_c.so[0m
+[5.945s] [ 76%] [32m[1mLinking CXX shared library libmsg_srv_action_interface_example__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.961s] [ 76%] Built target msg_srv_action_interface_example__rosidl_typesupport_fastrtps_c
+[6.075s] [ 76%] Built target msg_srv_action_interface_example__rosidl_typesupport_fastrtps_cpp
+[6.110s] [ 76%] Built target msg_srv_action_interface_example
+[6.129s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[7.690s] [ 78%] Built target msg_srv_action_interface_example__py
+[7.710s] [ 80%] [32mBuilding C object CMakeFiles/msg_srv_action_interface_example__rosidl_generator_py.dir/rosidl_generator_py/msg_srv_action_interface_example/msg/_arithmetic_argument_s.c.o[0m
+[7.736s] [ 82%] [32mBuilding C object CMakeFiles/msg_srv_action_interface_example__rosidl_generator_py.dir/rosidl_generator_py/msg_srv_action_interface_example/srv/_arithmetic_operator_s.c.o[0m
+[7.756s] [ 85%] [32mBuilding C object CMakeFiles/msg_srv_action_interface_example__rosidl_generator_py.dir/rosidl_generator_py/msg_srv_action_interface_example/action/_arithmetic_checker_s.c.o[0m
+[7.978s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/msg_srv_action_interface_example/libmsg_srv_action_interface_example__rosidl_generator_py.so[0m
+[8.019s] [ 87%] Built target msg_srv_action_interface_example__rosidl_generator_py
+[8.043s] [ 89%] [32mBuilding C object CMakeFiles/msg_srv_action_interface_example__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/msg_srv_action_interface_example/_msg_srv_action_interface_example_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[8.113s] [ 91%] [32mBuilding C object CMakeFiles/msg_srv_action_interface_example__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/msg_srv_action_interface_example/_msg_srv_action_interface_example_s.ep.rosidl_typesupport_c.c.o[0m
+[8.119s] [ 93%] [32mBuilding C object CMakeFiles/msg_srv_action_interface_example__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/msg_srv_action_interface_example/_msg_srv_action_interface_example_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[8.247s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/msg_srv_action_interface_example/msg_srv_action_interface_example_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.326s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/msg_srv_action_interface_example/msg_srv_action_interface_example_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.360s] [100%] [32m[1mLinking C shared library rosidl_generator_py/msg_srv_action_interface_example/msg_srv_action_interface_example_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.366s] [100%] Built target msg_srv_action_interface_example__rosidl_typesupport_introspection_c__pyext
+[8.375s] [100%] Built target msg_srv_action_interface_example__rosidl_typesupport_fastrtps_c__pyext
+[8.409s] [100%] Built target msg_srv_action_interface_example__rosidl_typesupport_c__pyext
+[8.424s] Invoked command in '/home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example -- -j8 -l8
+[8.506s] Invoking command in '/home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example
+[8.514s] -- Install configuration: ""
+[8.515s] -- Execute custom install script
+[8.515s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/ament_index/resource_index/rosidl_interfaces/msg_srv_action_interface_example
+[8.525s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg_srv_action_interface_example/action/arithmetic_checker.h
+[8.534s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg_srv_action_interface_example/action/detail/arithmetic_checker__functions.h
+[8.543s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg_srv_action_interface_example/action/detail/arithmetic_checker__struct.h
+[8.552s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg_srv_action_interface_example/action/detail/arithmetic_checker__type_support.h
+[8.560s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg_srv_action_interface_example/msg/arithmetic_argument.h
+[8.570s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg_srv_action_interface_example/msg/detail/arithmetic_argument__functions.h
+[8.578s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg_srv_action_interface_example/msg/detail/arithmetic_argument__struct.h
+[8.585s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg_srv_action_interface_example/msg/detail/arithmetic_argument__type_support.h
+[8.591s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg_srv_action_interface_example/msg/rosidl_generator_c__visibility_control.h
+[8.602s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg_srv_action_interface_example/srv/arithmetic_operator.h
+[8.612s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg_srv_action_interface_example/srv/detail/arithmetic_operator__functions.h
+[8.620s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg_srv_action_interface_example/srv/detail/arithmetic_operator__struct.h
+[8.627s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg_srv_action_interface_example/srv/detail/arithmetic_operator__type_support.h
+[8.636s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/environment/library_path.sh
+[8.644s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/environment/library_path.dsv
+[8.660s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg_srv_action_interface_example/action/detail/arithmetic_checker__rosidl_typesupport_fastrtps_c.h
+[8.669s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg_srv_action_interface_example/msg/detail/arithmetic_argument__rosidl_typesupport_fastrtps_c.h
+[8.679s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg_srv_action_interface_example/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.687s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg_srv_action_interface_example/srv/detail/arithmetic_operator__rosidl_typesupport_fastrtps_c.h
+[8.696s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg_srv_action_interface_example/action/arithmetic_checker.hpp
+[8.705s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg_srv_action_interface_example/action/detail/arithmetic_checker__builder.hpp
+[8.714s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg_srv_action_interface_example/action/detail/arithmetic_checker__struct.hpp
+[8.724s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg_srv_action_interface_example/action/detail/arithmetic_checker__traits.hpp
+[8.735s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg_srv_action_interface_example/msg/arithmetic_argument.hpp
+[8.746s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg_srv_action_interface_example/msg/detail/arithmetic_argument__builder.hpp
+[8.756s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg_srv_action_interface_example/msg/detail/arithmetic_argument__struct.hpp
+[8.765s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg_srv_action_interface_example/msg/detail/arithmetic_argument__traits.hpp
+[8.772s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg_srv_action_interface_example/srv/arithmetic_operator.hpp
+[8.779s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg_srv_action_interface_example/srv/detail/arithmetic_operator__builder.hpp
+[8.785s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg_srv_action_interface_example/srv/detail/arithmetic_operator__struct.hpp
+[8.791s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg_srv_action_interface_example/srv/detail/arithmetic_operator__traits.hpp
+[8.803s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg_srv_action_interface_example/action/detail/arithmetic_checker__rosidl_typesupport_fastrtps_cpp.hpp
+[8.811s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg_srv_action_interface_example/msg/detail/arithmetic_argument__rosidl_typesupport_fastrtps_cpp.hpp
+[8.820s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg_srv_action_interface_example/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.830s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg_srv_action_interface_example/srv/detail/arithmetic_operator__rosidl_typesupport_fastrtps_cpp.hpp
+[8.839s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg_srv_action_interface_example/action/detail/arithmetic_checker__rosidl_typesupport_introspection_c.h
+[8.846s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg_srv_action_interface_example/msg/detail/arithmetic_argument__rosidl_typesupport_introspection_c.h
+[8.855s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg_srv_action_interface_example/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.863s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg_srv_action_interface_example/srv/detail/arithmetic_operator__rosidl_typesupport_introspection_c.h
+[8.870s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg_srv_action_interface_example/action/detail/arithmetic_checker__rosidl_typesupport_introspection_cpp.hpp
+[8.878s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg_srv_action_interface_example/msg/detail/arithmetic_argument__rosidl_typesupport_introspection_cpp.hpp
+[8.886s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/include/msg_srv_action_interface_example/msg_srv_action_interface_example/srv/detail/arithmetic_operator__rosidl_typesupport_introspection_cpp.hpp
+[8.891s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/environment/pythonpath.sh
+[8.896s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/environment/pythonpath.dsv
+[8.903s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/local/lib/python3.10/dist-packages/msg_srv_action_interface_example-0.6.0-py3.10.egg-info/PKG-INFO
+[8.910s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/local/lib/python3.10/dist-packages/msg_srv_action_interface_example-0.6.0-py3.10.egg-info/SOURCES.txt
+[8.915s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/local/lib/python3.10/dist-packages/msg_srv_action_interface_example-0.6.0-py3.10.egg-info/dependency_links.txt
+[8.923s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/local/lib/python3.10/dist-packages/msg_srv_action_interface_example-0.6.0-py3.10.egg-info/top_level.txt
+[8.928s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/local/lib/python3.10/dist-packages/msg_srv_action_interface_example/__init__.py
+[8.934s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/local/lib/python3.10/dist-packages/msg_srv_action_interface_example/_msg_srv_action_interface_example_s.ep.rosidl_typesupport_c.c
+[8.939s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/local/lib/python3.10/dist-packages/msg_srv_action_interface_example/_msg_srv_action_interface_example_s.ep.rosidl_typesupport_fastrtps_c.c
+[8.944s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/local/lib/python3.10/dist-packages/msg_srv_action_interface_example/_msg_srv_action_interface_example_s.ep.rosidl_typesupport_introspection_c.c
+[8.949s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/local/lib/python3.10/dist-packages/msg_srv_action_interface_example/action/__init__.py
+[8.955s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/local/lib/python3.10/dist-packages/msg_srv_action_interface_example/action/_arithmetic_checker.py
+[8.960s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/local/lib/python3.10/dist-packages/msg_srv_action_interface_example/action/_arithmetic_checker_s.c
+[8.965s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/local/lib/python3.10/dist-packages/msg_srv_action_interface_example/libmsg_srv_action_interface_example__rosidl_generator_py.so
+[8.970s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/local/lib/python3.10/dist-packages/msg_srv_action_interface_example/msg/__init__.py
+[8.975s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/local/lib/python3.10/dist-packages/msg_srv_action_interface_example/msg/_arithmetic_argument.py
+[8.981s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/local/lib/python3.10/dist-packages/msg_srv_action_interface_example/msg/_arithmetic_argument_s.c
+[8.986s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/local/lib/python3.10/dist-packages/msg_srv_action_interface_example/msg_srv_action_interface_example_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.991s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/local/lib/python3.10/dist-packages/msg_srv_action_interface_example/msg_srv_action_interface_example_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.996s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/local/lib/python3.10/dist-packages/msg_srv_action_interface_example/msg_srv_action_interface_example_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.003s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/local/lib/python3.10/dist-packages/msg_srv_action_interface_example/srv/__init__.py
+[9.009s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/local/lib/python3.10/dist-packages/msg_srv_action_interface_example/srv/_arithmetic_operator.py
+[9.014s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/local/lib/python3.10/dist-packages/msg_srv_action_interface_example/srv/_arithmetic_operator_s.c
+[9.019s] -- Up-to-date symlink: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/local/lib/python3.10/dist-packages/msg_srv_action_interface_example/msg_srv_action_interface_example_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.019s] -- Up-to-date symlink: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/local/lib/python3.10/dist-packages/msg_srv_action_interface_example/msg_srv_action_interface_example_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.019s] -- Up-to-date symlink: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/local/lib/python3.10/dist-packages/msg_srv_action_interface_example/msg_srv_action_interface_example_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.019s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/msg/ArithmeticArgument.idl
+[9.025s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/srv/ArithmeticOperator.idl
+[9.030s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/action/ArithmeticChecker.idl
+[9.036s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/msg/ArithmeticArgument.msg
+[9.043s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/srv/ArithmeticOperator.srv
+[9.048s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/srv/ArithmeticOperator_Request.msg
+[9.056s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/srv/ArithmeticOperator_Response.msg
+[9.063s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/action/ArithmeticChecker.action
+[9.071s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/ament_index/resource_index/package_run_dependencies/msg_srv_action_interface_example
+[9.078s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/ament_index/resource_index/parent_prefix_path/msg_srv_action_interface_example
+[9.086s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/environment/ament_prefix_path.sh
+[9.093s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/environment/ament_prefix_path.dsv
+[9.102s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/environment/path.sh
+[9.107s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/environment/path.dsv
+[9.113s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/local_setup.bash
+[9.118s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/local_setup.sh
+[9.124s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/local_setup.zsh
+[9.129s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/local_setup.dsv
+[9.135s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/package.dsv
+[9.140s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/ament_index/resource_index/packages/msg_srv_action_interface_example
+[9.146s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/cmake/rosidl_cmake-extras.cmake
+[9.151s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.157s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.164s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/cmake/ament_cmake_export_libraries-extras.cmake
+[9.172s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/cmake/ament_cmake_export_targets-extras.cmake
+[9.181s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.189s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.197s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/cmake/msg_srv_action_interface_exampleConfig.cmake
+[9.205s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/cmake/msg_srv_action_interface_exampleConfig-version.cmake
+[9.211s] -- Symlinking: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/package.xml
+[9.216s] -- Installing: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/lib/libmsg_srv_action_interface_example__rosidl_generator_c.so
+[9.216s] -- Set runtime path of "/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/lib/libmsg_srv_action_interface_example__rosidl_generator_c.so" to ""
+[9.216s] -- Installing: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/lib/libmsg_srv_action_interface_example__rosidl_typesupport_fastrtps_c.so
+[9.216s] -- Set runtime path of "/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/lib/libmsg_srv_action_interface_example__rosidl_typesupport_fastrtps_c.so" to ""
+[9.217s] -- Installing: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/lib/libmsg_srv_action_interface_example__rosidl_typesupport_fastrtps_cpp.so
+[9.217s] -- Set runtime path of "/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/lib/libmsg_srv_action_interface_example__rosidl_typesupport_fastrtps_cpp.so" to ""
+[9.217s] -- Installing: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/lib/libmsg_srv_action_interface_example__rosidl_typesupport_introspection_c.so
+[9.217s] -- Set runtime path of "/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/lib/libmsg_srv_action_interface_example__rosidl_typesupport_introspection_c.so" to ""
+[9.217s] -- Installing: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/lib/libmsg_srv_action_interface_example__rosidl_typesupport_c.so
+[9.217s] -- Set runtime path of "/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/lib/libmsg_srv_action_interface_example__rosidl_typesupport_c.so" to ""
+[9.217s] -- Installing: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/lib/libmsg_srv_action_interface_example__rosidl_typesupport_introspection_cpp.so
+[9.218s] -- Set runtime path of "/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/lib/libmsg_srv_action_interface_example__rosidl_typesupport_introspection_cpp.so" to ""
+[9.218s] -- Installing: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/lib/libmsg_srv_action_interface_example__rosidl_typesupport_cpp.so
+[9.218s] -- Set runtime path of "/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/lib/libmsg_srv_action_interface_example__rosidl_typesupport_cpp.so" to ""
+[9.247s] Listing '/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/local/lib/python3.10/dist-packages/msg_srv_action_interface_example'...
+[9.247s] Compiling '/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/local/lib/python3.10/dist-packages/msg_srv_action_interface_example/__init__.py'...
+[9.247s] Listing '/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/local/lib/python3.10/dist-packages/msg_srv_action_interface_example/action'...
+[9.247s] Compiling '/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/local/lib/python3.10/dist-packages/msg_srv_action_interface_example/action/__init__.py'...
+[9.247s] Compiling '/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/local/lib/python3.10/dist-packages/msg_srv_action_interface_example/action/_arithmetic_checker.py'...
+[9.247s] Listing '/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/local/lib/python3.10/dist-packages/msg_srv_action_interface_example/msg'...
+[9.247s] Compiling '/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/local/lib/python3.10/dist-packages/msg_srv_action_interface_example/msg/__init__.py'...
+[9.247s] Compiling '/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/local/lib/python3.10/dist-packages/msg_srv_action_interface_example/msg/_arithmetic_argument.py'...
+[9.248s] Listing '/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/local/lib/python3.10/dist-packages/msg_srv_action_interface_example/srv'...
+[9.248s] Compiling '/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/local/lib/python3.10/dist-packages/msg_srv_action_interface_example/srv/__init__.py'...
+[9.248s] Compiling '/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/local/lib/python3.10/dist-packages/msg_srv_action_interface_example/srv/_arithmetic_operator.py'...
+[9.251s] -- Installing: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/lib/libmsg_srv_action_interface_example__rosidl_generator_py.so
+[9.251s] -- Set runtime path of "/home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/lib/libmsg_srv_action_interface_example__rosidl_generator_py.so" to ""
+[9.251s] -- Installing: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/cmake/export_msg_srv_action_interface_example__rosidl_generator_cExport.cmake
+[9.251s] -- Installing: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/cmake/export_msg_srv_action_interface_example__rosidl_generator_cExport-noconfig.cmake
+[9.251s] -- Installing: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/cmake/export_msg_srv_action_interface_example__rosidl_typesupport_fastrtps_cExport.cmake
+[9.251s] -- Installing: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/cmake/export_msg_srv_action_interface_example__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[9.252s] -- Installing: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/cmake/export_msg_srv_action_interface_example__rosidl_generator_cppExport.cmake
+[9.252s] -- Installing: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/cmake/export_msg_srv_action_interface_example__rosidl_typesupport_fastrtps_cppExport.cmake
+[9.252s] -- Installing: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/cmake/export_msg_srv_action_interface_example__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[9.252s] -- Installing: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/cmake/msg_srv_action_interface_example__rosidl_typesupport_introspection_cExport.cmake
+[9.252s] -- Installing: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/cmake/msg_srv_action_interface_example__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.252s] -- Installing: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/cmake/msg_srv_action_interface_example__rosidl_typesupport_cExport.cmake
+[9.252s] -- Installing: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/cmake/msg_srv_action_interface_example__rosidl_typesupport_cExport-noconfig.cmake
+[9.252s] -- Installing: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/cmake/msg_srv_action_interface_example__rosidl_typesupport_introspection_cppExport.cmake
+[9.252s] -- Installing: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/cmake/msg_srv_action_interface_example__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.253s] -- Installing: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/cmake/msg_srv_action_interface_example__rosidl_typesupport_cppExport.cmake
+[9.253s] -- Installing: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/cmake/msg_srv_action_interface_example__rosidl_typesupport_cppExport-noconfig.cmake
+[9.253s] -- Installing: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/cmake/export_msg_srv_action_interface_example__rosidl_generator_pyExport.cmake
+[9.253s] -- Installing: /home/minipin/ros2-study/robot_dj/install/msg_srv_action_interface_example/share/msg_srv_action_interface_example/cmake/export_msg_srv_action_interface_example__rosidl_generator_pyExport-noconfig.cmake
+[9.260s] Invoked command in '/home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/minipin/ros2-study/robot_dj/build/msg_srv_action_interface_example

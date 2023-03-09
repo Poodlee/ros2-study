@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/minipin/ros2-study/robot_dj/src/my_first_ros_rclcpp_pkg
+CMAKE_SOURCE_DIR = /home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/my_first_ros_rclcpp_pkg
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/minipin/ros2-study/robot_dj/src/my_first_ros_rclcpp_pkg /home/minipin/ros2-study/robot_dj/src/my_first_ros_rclcpp_pkg /home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg /home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg /home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/my_first_ros_rclcpp_pkg /home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/my_first_ros_rclcpp_pkg /home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg /home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg /home/minipin/ros2-study/robot_dj/build/my_first_ros_rclcpp_pkg/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

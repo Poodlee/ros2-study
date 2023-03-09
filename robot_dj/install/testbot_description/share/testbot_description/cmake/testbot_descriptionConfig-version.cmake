@@ -1,0 +1,1 @@
+/home/minipin/ros2-study/robot_dj/build/testbot_description/ament_cmake_core/testbot_descriptionConfig-version.cmake

@@ -1,0 +1,51 @@
+[0.372s] Invoking command in '/home/minipin/ros2-study/robot_dj/build/time_rclcpp_example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/time_rclcpp_example -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/minipin/ros2-study/robot_dj/install/time_rclcpp_example
+[0.532s] -- The C compiler identification is GNU 11.3.0
+[0.666s] -- The CXX compiler identification is GNU 11.3.0
+[0.683s] -- Detecting C compiler ABI info
+[0.884s] -- Detecting C compiler ABI info - done
+[0.896s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.897s] -- Detecting C compile features
+[0.899s] -- Detecting C compile features - done
+[0.903s] -- Detecting CXX compiler ABI info
+[1.112s] -- Detecting CXX compiler ABI info - done
+[1.118s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.118s] -- Detecting CXX compile features
+[1.120s] -- Detecting CXX compile features - done
+[1.120s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.480s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.544s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.583s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[1.691s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.701s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.737s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.759s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.837s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.960s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.963s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.512s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.570s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.685s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.710s] -- Looking for pthread.h
+[2.965s] -- Looking for pthread.h - found
+[2.965s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.435s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.436s] -- Found Threads: TRUE  
+[3.918s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.077s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.077s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.078s] -- Configured cppcheck include dirs: 
+[4.078s] -- Configured cppcheck exclude dirs and/or files: 
+[4.078s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.078s] -- Configured cpplint exclude dirs and/or files: 
+[4.078s] -- Added test 'lint_cmake' to check CMake code style
+[4.078s] -- Added test 'uncrustify' to check C / C++ code style
+[4.078s] -- Configured uncrustify additional arguments: 
+[4.078s] -- Added test 'xmllint' to check XML markup files
+[4.091s] -- Configuring done
+[4.101s] -- Generating done
+[4.103s] -- Build files have been written to: /home/minipin/ros2-study/robot_dj/build/time_rclcpp_example
+[4.147s] Invoked command in '/home/minipin/ros2-study/robot_dj/build/time_rclcpp_example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/minipin/ros2-study/robot_dj/src/ros2-seminar-examples/time_rclcpp_example -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/minipin/ros2-study/robot_dj/install/time_rclcpp_example
+[4.147s] Invoking command in '/home/minipin/ros2-study/robot_dj/build/time_rclcpp_example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/minipin/ros2-study/robot_dj/build/time_rclcpp_example -- -j8 -l8
+[4.264s] [ 50%] [32mBuilding CXX object CMakeFiles/time_example.dir/src/main.cpp.o[0m
+[8.637s] [100%] [32m[1mLinking CXX executable time_example[0m
+[8.803s] [100%] Built target time_example
